@@ -1,4 +1,4 @@
-<!--- ![logo](_media/CHEER_logo.svg =100x100) --->
+<!--- ![logo](_media/CHEER_logo.svg =250x250) --->
 
 <img src="_media/CHEER_logo.svg" width=100>
 
