@@ -1,4 +1,4 @@
-![logo](_media/CHEER_logo.png)
+![logo](../_media/CHEER_logo.png)
 
 # CHEER Knowledge Framework
 
