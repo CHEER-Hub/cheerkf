@@ -4,4 +4,4 @@
 * [Managing Stuff](03-managing-stuff.md)
 * [Citations, Papers, and Presos](04-citations-papers-presentations.md)
 * Research Thrusts
- * [Hazards Thrust](hazardsthrust.md) 
+  * [Hazards Thrust](hazardsthrust.md) 
