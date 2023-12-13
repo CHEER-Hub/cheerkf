@@ -1,6 +1,6 @@
 <!--- ![logo](_media/CHEER_logo.svg =100x100) --->
 
-,img src="_media/CHEER_logo.svg" width=100>
+<img src="_media/CHEER_logo.svg" width=100>
 
 # CHEER Knowledge Framework
 
