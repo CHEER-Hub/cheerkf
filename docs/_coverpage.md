@@ -1,4 +1,4 @@
-![logo](_media/CHEER_logo.svg)
+![logo](_media/CHEER_logo.svg =100x100)
 
 # CHEER Knowledge Framework
 
