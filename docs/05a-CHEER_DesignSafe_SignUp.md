@@ -12,7 +12,7 @@ kf* Manager: Caroline Williams (cjw@udel.edu)
 
 ## 1. 	DesignSafe Background
 
-<img align="right" src="_media/05a-TACC_umbrella.png" width="230px" alt="TACC's logo is overarching above a vertical DesignSafe logo with other vertical text marked other under the TACC logo">
+<img align="right" src="_media/05a-TACC_umbrella.png" width="210px" alt="TACC's logo is overarching above a vertical DesignSafe logo with other vertical text marked other under the TACC logo">
 
 [DesignSafe](https://www.designsafe-ci.org/) is a web portal that supports natural hazards research and is hosted by the [Texas Advanced Computing Center](https://tacc.utexas.edu/) (TACC). While “DesignSafe” and “TACC” are sometimes used interchangeably, DesignSafe is just one of many research entities that utilize TACC computers. TACC has many high-performance computers of which DesignSafe primarily uses two, named “Corral” (for data storage) and “Frontera” (for computing). 
 <br clear="left"/>
