@@ -5,7 +5,8 @@ Last Update: April 11, 2024
 kf* Manager: Caroline Williams (cjw@udel.edu)
 ***
 # 1. 	DesignSafe Background
-[DesignSafe](https://www.designsafe-ci.org/) is a web portal that supports natural hazards <img style="float: right;" src="_media/05a-TACC_umbrella.png" width="200px"/> research and is hosted by the [Texas Advanced Computing Center](https://tacc.utexas.edu/) (TACC). While “DesignSafe” and “TACC” are sometimes used interchangeably, DesignSafe is just one of many research entities that utilize TACC computers. TACC has many high-performance computers of which DesignSafe primarily uses two, named “Corral” (for data storage) and “Frontera” (for computing). 
+<img align="right" src="_media/05a-TACC_umbrella.png" alt="TACC's logo is overarching above a vertical DesignSafe logo with other vertical text marked other under the TACC logo" width="200px"/>
+[DesignSafe](https://www.designsafe-ci.org/) is a web portal that supports natural hazards research and is hosted by the [Texas Advanced Computing Center](https://tacc.utexas.edu/) (TACC). While “DesignSafe” and “TACC” are sometimes used interchangeably, DesignSafe is just one of many research entities that utilize TACC computers. TACC has many high-performance computers of which DesignSafe primarily uses two, named “Corral” (for data storage) and “Frontera” (for computing). 
 <br clear="left"/>
 DesignSafe has two main resources: 1) the [Data Depot](https://www.designsafe-ci.org/data/browser/public/) for data storage and publication, and 2) modeling [tools and applications](https://www.designsafe-ci.org/rw/workspace/#!/), such as Jupyter Notebook and MATLAB software, as well as [SimCenter tools](https://simcenter.designsafe-ci.org/research-tools/overview/). ***Of the two, it’s critical that you understand the workings of the Data Depot*** as this will be the primary place for data storage and data publication for CHEER.
 # 2. 	Create a TACC account
