@@ -1,3 +1,7 @@
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
+
 # CHEER Hub DesignSafe Data Upload
 
 Prepared by: Caroline Williams
@@ -73,7 +77,7 @@ Depending on the number and size of files/folders that you need to transfer to t
   f. For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)
 
 
-<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="210px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
+<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
 
 4. If you are transferring files that are > 2GB in size, or > 25 files or > 3 folders, you need to follow the large data transfer method:
   a. If you do not have an authentication app on your phone (e.g., [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605), [Microsoft Authenticator](https://apps.apple.com/us/app/microsoft-authenticator/id983156458), [Duo](https://apps.apple.com/us/app/duo-mobile/id422663827)), download the app of your choice.
