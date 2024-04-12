@@ -47,46 +47,60 @@ Depending on the number and size of files/folders that you need to transfer to t
   <img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="600px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
 </p>
 
-1. First identify whether you are in possession of sensitive data (see box above).</li>
-
 <ol>
-  <li>one</li>
-  <li>two</li>
+<li>one</li>
+<li>two</li>
   <ol>
-  	<li>three</li>
+  <li>three</li>
     <ol>
-    	<li>lsfjaf</li>
-        <li>aaa</li>
+    <li>lsfjaf</li>
+    <li>aaa</li>
     </ol>
-  	<li>four</li>
-  	<li>five</li>
+  <li>four</li>
+  <li>five</li>
   </ol>
 </ol>
 
-(a) If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
-(b) If you do not have sensitive data, proceed with the following steps.
-
-2. Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations
-3. If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the normal data transfer method:
-  a. Go to the [DesignSafe website](https://www.designsafe-ci.org/)
-  b. Sign in using your TACC user name
-  c. Go to CHEER project folder in Data Depot
-    i. Go to the “Use DesignSafe” tab, then click “Data Depot”
-    ii. Click “My Projects” on the left panel
-    iii. Click on the CHEER project folder (PRJ-4392)
-      1. Note: If you do not see PRJ-4392, email the kf* manager with your TACC user name to make sure they added you to the CHEER project folder
-  d. Navigate to the folder corresponding to your project. 
-    i. Click on the thrust folder related to your project (Buildings, Economy, Government, Hazards, Households)
-      1. Note: If you would like to create a new folder here, please contact the kf* manager first.
-    ii. If you need to add a new folder for your project, click the “Add” button in the left panel and create a new folder. When naming the folder, you must adhere to the following:
-      1. The name must not have spaces. Use capitalization or underscores to separate words (e.g., HousingInventoryProjection, housing_inventory_projection)
-      2. Make the folder name concise yet descriptive (i.e. avoid unfamiliar arbitrary acronyms or generic descriptions)
-      3. Thrust teams should discuss how they want to organize their folder
-  e. To upload files, click on the “Add” button on the left panel and select “File upload: max 2GB”
-    i. Choose your file and press “Begin upload”
-    ii. To rename, move, copy, download, or delete a folder or file, you must check the box next to the file/folder, then click on the appropriate action in the top panel (below the search bar)
-  f. For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)
-
+<ol>
+<li>First identify whether you are in possession of sensitive data (see box above).</li>
+  <ol>
+  <li>If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).</li>
+  <li>If you do not have sensitive data, proceed with the following steps.</li>
+  </ol>
+<li>Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations</li>
+<li>If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the normal data transfer method:</li>
+  <ol>
+  <li>Go to the [DesignSafe website](https://www.designsafe-ci.org/)</li>
+  <li>Sign in using your TACC user name</li>
+  <li>Go to CHEER project folder in Data Depot</li>
+    <ol>
+    <li>Go to the “Use DesignSafe” tab, then click “Data Depot”</li>
+    <li>Click “My Projects” on the left panel</li>
+    <li>Click on the CHEER project folder (PRJ-4392)</li>
+      <ol>
+      <li>Note: If you do not see PRJ-4392, email the kf* manager with your TACC user name to make sure they added you to the CHEER project folder</li>
+      </ol>
+    </ol>
+  <li>Navigate to the folder corresponding to your project.</li>
+    <ol>
+    <li>Click on the thrust folder related to your project (Buildings, Economy, Government, Hazards, Households)</li>
+      <ol>
+      <li>Note: If you would like to create a new folder here, please contact the kf* manager first.</li>
+      </ol>
+    <li>If you need to add a new folder for your project, click the “Add” button in the left panel and create a new folder. When naming the folder, you must adhere to the following:</li>
+      <ol>
+      <li>The name must not have spaces. Use capitalization or underscores to separate words (e.g., HousingInventoryProjection, housing_inventory_projection)</li>
+      <li>Make the folder name concise yet descriptive (i.e. avoid unfamiliar arbitrary acronyms or generic descriptions)</li>
+      <li>Thrust teams should discuss how they want to organize their folder</li>
+      </ol>
+    </ol>
+  <li>To upload files, click on the “Add” button on the left panel and select “File upload: max 2GB”</li>
+    <ol>
+    <li>Choose your file and press “Begin upload”</li>
+    <li>To rename, move, copy, download, or delete a folder or file, you must check the box next to the file/folder, then click on the appropriate action in the top panel (below the search bar)</li>
+    </ol>
+  <li>For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)</li>
+  </ol>
 
 <img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
 
@@ -146,6 +160,7 @@ Depending on the number and size of files/folders that you need to transfer to t
   f. Drag files from your computer into the Cyberduck interface which will initiate the file transfer. (You can also drag files from Cyberduck to your computer, which would initiate a file download.)
     i. When you’re adding and moving files in Cyberduck, you will frequently be asked to add a TACC token. Therefore, it’s best to have your phone nearby and your authenticator app open when you’re transferring many files.
   g. For help with transferring files on Cyberduck, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)
+</ol>
 
 ## 3. File naming standards
 While everyone should review the CHEER Top Ten Data Tips, the following summarizes the requirements for CHEER file naming.
