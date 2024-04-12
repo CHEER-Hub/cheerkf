@@ -47,13 +47,13 @@ Depending on the number and size of files/folders that you need to transfer to t
   <img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="600px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
 </p>
 
-1) First identify whether you are in possession of sensitive data (see box above). 
+1. First identify whether you are in possession of sensitive data (see box above). 
 
-  <ol type="a">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
+	<ol type="a">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+ 	</ol>
 
 (a) If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
 (b) If you do not have sensitive data, proceed with the following steps.
