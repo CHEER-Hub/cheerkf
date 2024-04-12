@@ -48,12 +48,12 @@ Depending on the number and size of files/folders that you need to transfer to t
 </p>
 
 <ol type="1">
-	<li>First identify whether you are in possession of sensitive data (see box above).</li>
-	<ol type="a">
-		<li>Coffee</li>
-		<li>Tea</li>
-		<li>Milk</li>
- 	</ol>
+  <li>First identify whether you are in possession of sensitive data (see box above).</li>
+  <ol type="a">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
 </ol>
 
 (a) If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
