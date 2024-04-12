@@ -50,6 +50,7 @@ Depending on the number and size of files/folders that you need to transfer to t
 1) First identify whether you are in possession of sensitive data (see box above). 
 	a) If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
 	b) If you do not have sensitive data, proceed with the following steps.
+
 2. Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations
 3. If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the normal data transfer method:
   a. Go to the [DesignSafe website](https://www.designsafe-ci.org/)
