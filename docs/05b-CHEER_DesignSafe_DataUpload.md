@@ -1,7 +1,3 @@
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
-
 # CHEER Hub DesignSafe Data Upload
 
 Prepared by: Caroline Williams
@@ -47,14 +43,15 @@ Before uploading any data to DesignSafe, you *must consult with your advisor* to
 
 Depending on the number and size of files/folders that you need to transfer to the CHEER project folder, there are primarily two different ways to upload the data: 1) normal data transfer method, or 2) large data transfer method. Figure 1 (next page) summarizes these steps, with detailed instructions below.
 
-<img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="450px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
+<p align="center">
+  <img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="450px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
+</p>
 
 1. First identify whether you are in possession of sensitive data (see box above). 
-
-  a. If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
-
-  b. If you do not have sensitive data, proceed with the following steps.
-
+<ol type="a">
+ <li>If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).<li>
+ <li>If you do not have sensitive data, proceed with the following steps.<li>
+</ol>
 2. Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations
 3. If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the normal data transfer method:
   a. Go to the [DesignSafe website](https://www.designsafe-ci.org/)
