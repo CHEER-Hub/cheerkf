@@ -45,7 +45,7 @@ All CHEER researchers are strongly encouraged to join the DesignSafe slack chann
 ## 5. 	Next steps
 Now that your TACC account has been set up, you’re likely interested in either uploading data to DesignSafe or developing code. To do so, follow the instructions provided in the following guides:
 - CHEER Hub Top Ten Data Tips
-- CHEER Hub DesignSafe Data Upload Procedures
+- [CHEER Hub DesignSafe Data Upload Procedures](05b-CHEER_DesignSafe_DataUpload)
 - CHEER Hub Code Templates
 
 
