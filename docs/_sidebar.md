@@ -7,3 +7,6 @@
   * [Hazards Thrust](hazardsthrust.md)
 * [CHEER Using DesignSafe](05-CHEER_Using_DesignSafe.md)
   * [CHEER Hub DesignSafe Sign-Up](05a-CHEER_DesignSafe_SignUp.md)
+  * [CHEER Hub DesignSafe Data Upload](05b-CHEER_DesignSafe_DataUpload.md)
+* [CHEER Data and Code Standards](06-CHEER_DataCodeStandards.md)
+  * [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md)

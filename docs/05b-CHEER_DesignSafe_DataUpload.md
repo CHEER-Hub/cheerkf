@@ -26,7 +26,7 @@ The [CHEER project folder](https://www.designsafe-ci.org/data/browser/projects/1
 Once a dataset is ready to be published for public use, the data will be moved from the CHEER project folder (PRJ-4392) to a new project on the DesignSafe Data Depot (PRJ-<new number>). This new project will then be published and receive a DOI. See the CHEER Hub Data Publishing Procedure doc when you’re ready to publish data.
 
 ***
-<p style="color:red;"><b>IMPORTANT</b>: Identifying Sensitive Data</p>
+**IMPORTANT**: Identifying Sensitive Data</p>
 
 Before uploading any data to DesignSafe, you *must consult with your advisor* to determine whether your data are sensitive data or not. Sensitive data includes, but is not limited to:
 * **Proprietary data**
@@ -55,7 +55,7 @@ Depending on the number and size of files/folders that you need to transfer to t
   <li>If you <b>do not</b> have sensitive data, proceed with the following steps.</li>
   </ol>
 
-<li>Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations</li>
+<li>Review the CHEER Hub’s [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md) to ensure your data aligns with the CHEER recommendations</li>
 
 
 <img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
@@ -177,7 +177,7 @@ Depending on the number and size of files/folders that you need to transfer to t
 </ol>
 
 ## 3. File naming standards
-While everyone should review the CHEER Top Ten Data Tips, the following summarizes the requirements for CHEER file naming.
+While everyone should review the [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md), the following summarizes the requirements for CHEER file naming.
 * **MOST IMPORTANT: do not use spaces in file names**
 * Underscores or capitalization are your friend (e.g., REACH_module_outputs, REACHmoduleOutputs)
 * Don’t use special characters (& ,* % # ;*( !@$^~' { [?<-)
