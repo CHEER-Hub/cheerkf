@@ -12,7 +12,7 @@ kf* Manager: Caroline Williams (cjw@udel.edu)
 
 ## 1. 	Background
 
-<img align="right" src="_media/05b-DataDepotScreenshot.png" width="210px" alt="A screenshot of the Data Depot interface">
+<img align="right" src="_media/05b-DataDepotScreenshot.png" width="350px" alt="A screenshot of the Data Depot interface">
 
 CHEER primarily uses the [Data Depot](https://www.designsafe-ci.org/data/browser/public/) on DesignSafe to store and publish data. While DesignSafe has a [comprehensive guide](https://www.designsafe-ci.org/user-guide/managingdata/) for managing and publishing data on the DesignSafe Data Depot, the following is intended to provide streamlined steps to upload data on the CHEER project in DesignSafe.
 
@@ -43,11 +43,14 @@ Before uploading any data to DesignSafe, you *must consult with your advisor* to
 
 Depending on the number and size of files/folders that you need to transfer to the CHEER project folder, there are primarily two different ways to upload the data: 1) normal data transfer method, or 2) large data transfer method. Figure 1 (next page) summarizes these steps, with detailed instructions below.
 
-<img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="210px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
+<img align="center" src="_media/05b-DesignSafe_DataUploadFlow.png" width="450px" alt="A flow chart with a summary of steps to upload data. These summarized steps align with the text.">
 
 1. First identify whether you are in possession of sensitive data (see box above). 
+
   a. If you do have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).
+
   b. If you do not have sensitive data, proceed with the following steps.
+
 2. Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations
 3. If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the normal data transfer method:
   a. Go to the [DesignSafe website](https://www.designsafe-ci.org/)
@@ -70,7 +73,7 @@ Depending on the number and size of files/folders that you need to transfer to t
   f. For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)
 
 
-<img align="center" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="210px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
+<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="210px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
 
 4. If you are transferring files that are > 2GB in size, or > 25 files or > 3 folders, you need to follow the large data transfer method:
   a. If you do not have an authentication app on your phone (e.g., [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605), [Microsoft Authenticator](https://apps.apple.com/us/app/microsoft-authenticator/id983156458), [Duo](https://apps.apple.com/us/app/duo-mobile/id422663827)), download the app of your choice.
@@ -146,7 +149,7 @@ While everyone should review the CHEER Top Ten Data Tips, the following summariz
 * Only use a period before the file extension
 * Limit file names to 32 characters or less.
 
-##4. Next Steps
+## 4. Next Steps
 Now you’re likely interested in developing your code or using DesignSafe HPC resources. To do so, follow the instructions provided in the following guides:
 * CHEER Hub Code Templates
 * CHEER Hub GitHub Procedures
