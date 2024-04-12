@@ -22,10 +22,11 @@ There are three main places where a DesignSafe user can access and store data on
 * **Published**: published data open to the public
 
 The [CHEER project folder](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/) is a private location to store data that can only be shared among CHEER team members. Only CHEER team members have access to this project folder. 
+
 Once a dataset is ready to be published for public use, the data will be moved from the CHEER project folder (PRJ-4392) to a new project on the DesignSafe Data Depot (PRJ-<new number>). This new project will then be published and receive a DOI. See the CHEER Hub Data Publishing Procedure doc when you’re ready to publish data.
 
 ***
-**IMPORTANT:** Identifying Sensitive Data
+<p style="color:red;"><b>IMPORTANT</b>: Identifying Sensitive Data</p>
 
 Before uploading any data to DesignSafe, you *must consult with your advisor* to determine whether your data are sensitive data or not. Sensitive data includes, but is not limited to:
 * **Proprietary data**
@@ -48,26 +49,18 @@ Depending on the number and size of files/folders that you need to transfer to t
 </p>
 
 <ol>
-<li>one</li>
-<li>two</li>
-  <ol>
-  <li>three</li>
-    <ol>
-    <li>lsfjaf</li>
-    <li>aaa</li>
-    </ol>
-  <li>four</li>
-  <li>five</li>
-  </ol>
-</ol>
-
-<ol>
 <li>First identify whether you are in possession of sensitive data (see box above).</li>
   <ol>
   <li>If you <b>do</b> have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).</li>
   <li>If you <b>do not</b> have sensitive data, proceed with the following steps.</li>
   </ol>
+
 <li>Review the CHEER Hub’s Top Ten Data Tips to ensure your data aligns with the CHEER recommendations</li>
+
+
+<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
+
+
 <li>If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the <b>normal data transfer method</b>:</li>
   <ol>
   <li>Go to the [DesignSafe website](https://www.designsafe-ci.org/)</li>
@@ -101,8 +94,6 @@ Depending on the number and size of files/folders that you need to transfer to t
     </ol>
   <li>For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)</li>
   </ol>
-
-<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
 
 <li>If you are transferring files that are > 2GB in size, or > 25 files or > 3 folders, you need to follow the <b>large data transfer method</b>:</li>
   <ol>
@@ -169,8 +160,8 @@ Depending on the number and size of files/folders that you need to transfer to t
     <li>Note: If you would like to create a new folder here, please contact the kf* manager first.</li>
     <li>Navigate to the folder corresponding to your project within your thrust’s folder.</li>
       <ul>
-      1. If you need to add a new folder for your project, click on “File” > “New Folder” 
-      2. When naming the folder, you must adhere to the following:
+      <li>If you need to add a new folder for your project, click on “File” > “New Folder”</li>
+      <li>When naming the folder, you must adhere to the following:</li>
         <ul>
         <li>The name <b>must not have spaces</b>. Use capitalization or underscores to separate words (e.g., HousingInventoryProjection, housing_inventory_projection)</li>
         <li>Make the folder name concise yet descriptive (i.e. avoid unfamiliar arbitrary acronyms or generic descriptions)</li>
