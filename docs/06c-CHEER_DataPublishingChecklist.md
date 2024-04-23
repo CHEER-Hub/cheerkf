@@ -42,7 +42,7 @@ Metadata file(s)
     * Files related to scenarios not presented in your paper
     * Files considered for input, but not used in the final version
 * License type chosen (see [CHEER Top Ten Data Tips](06a-CHEER_DataTips.md) for guidance)
-* Metadata file contains (refer to CHEER Metadata Template):
+* Metadata file contains (refer to [CHEER Metadata Template](https://cheer-hub.github.io/cheerkf/#/06b-CHEER_MetadataTemplate)):
   * Header with project name, NSF award #, dataset authors, DesignSafe project number, date, version, license, language, reference
   * Summary of dataset
   * About five key words listed
