@@ -51,11 +51,11 @@ Depending on the number and size of files/folders that you need to transfer to t
 <ol>
 <li>First identify whether you are in possession of sensitive data (see box above).</li>
   <ol>
-  <li>If you <b>do</b> have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with [TACC’s Protected Data Service team](https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/).</li>
+  <li>If you <b>do</b> have sensitive data, send an email to the kf* manager to decide how to proceed as a team. One possibility that the team may pursue is to work with <a href="https://tacc.utexas.edu/about/security-and-compliance/protected-data-service/">TACC’s Protected Data Service team</a>></li>
   <li>If you <b>do not</b> have sensitive data, proceed with the following steps.</li>
   </ol>
 
-<li>Review the CHEER Hub’s [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md) to ensure your data aligns with the CHEER recommendations</li>
+<li>Review the CHEER Hub’s <a href="https://cheer-hub.github.io/cheerkf/#/06a-CHEER_DataTips">CHEER Hub Top Ten Data Tips</a> to ensure your data aligns with the CHEER recommendations</li>
 
 
 <img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="450px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
@@ -63,7 +63,7 @@ Depending on the number and size of files/folders that you need to transfer to t
 
 <li>If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the <b>normal data transfer method</b>:</li>
   <ol>
-  <li>Go to the [DesignSafe website](https://www.designsafe-ci.org/)</li>
+  <li>Go to the <a href="https://www.designsafe-ci.org/">DesignSafe website</a></li>
   <li>Sign in using your TACC user name</li>
   <li>Go to CHEER project folder in Data Depot</li>
     <ol>
@@ -92,18 +92,18 @@ Depending on the number and size of files/folders that you need to transfer to t
     <li>Choose your file and press “Begin upload”</li>
     <li>To rename, move, copy, download, or delete a folder or file, you must check the box next to the file/folder, then click on the appropriate action in the top panel (below the search bar)</li>
     </ol>
-  <li>For help with transferring files on the Data Depot, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)</li>
+  <li>For help with transferring files on the Data Depot, submit a <a href="https://www.designsafe-ci.org/help/new-ticket/">help ticket</a></li>
   </ol>
 
 <li>If you are transferring files that are > 2GB in size, or > 25 files or > 3 folders, you need to follow the <b>large data transfer method</b>:</li>
   <ol>
-  <li>If you do not have an authentication app on your phone (e.g., [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605), [Microsoft Authenticator](https://apps.apple.com/us/app/microsoft-authenticator/id983156458), [Duo](https://apps.apple.com/us/app/duo-mobile/id422663827)), download the app of your choice.</li>
+  <li>If you do not have an authentication app on your phone (e.g., <a href="https://apps.apple.com/us/app/google-authenticator/id388497605">Google Authenticator</a>, <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458">Microsoft Authenticator</a>, <a href="https://apps.apple.com/us/app/duo-mobile/id422663827">Duo</a>), download the app of your choice.</li>
     <ol>
     <li>Note: it’s possible that you already have an authenticator app on your phone for your university’s multi-factor authentication (MFA), for GitHub, or other needs. You can use this same app in the following steps.</li>
     </ol>
-  <li>Set up multi-factor authentication on TACC (see [TACC guide](https://docs.tacc.utexas.edu/basics/mfa/) for details):</li>
+  <li>Set up multi-factor authentication on TACC (see <a href="https://docs.tacc.utexas.edu/basics/mfa/">TACC guide</a> for details):</li>
     <ol>
-    <li>Go to the [TACC portal (https://tacc.utexas.edu/)](https://tacc.utexas.edu/portal/login) (*this is a different website than the DesignSafe homepage*)</li>
+    <li>Go to the <a href="https://tacc.utexas.edu/portal/login">https://tacc.utexas.edu/</a> (*this is a different website than the DesignSafe homepage*)</li>
     <li>Sign in using your TACC username and password</li>
     <li>Click on your username in the upper right corner</li>
     <li>Click on “Manage Account”</li>
@@ -113,11 +113,11 @@ Depending on the number and size of files/folders that you need to transfer to t
     <li>Open your authenticator app on your phone and select the option to pair an account/token (likely represented by a “+” sign in the upper right corner of your phone screen)</li>
     <li>The app will launch your phone’s camera and you will need to scan the QR code.</li>
     <li>Your device is now paired. Every time you are asked for a TACC token, you will need to open this app on your phone and enter the code associated with TACC.</li>
-    <li>For help, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)</li>
+    <li>For help, submit a <a href="https://www.designsafe-ci.org/help/new-ticket/">help ticket</a></li>
     </ol>
   <li>Next, you’ll need to download Cyberduck to your computer, which is a software that will transfer files from your computer to DesignSafe (known as an SSH file transfer protocol (SFTP) client).</li>
     <ol>
-    <li>[Download Cyberduck](https://cyberduck.io/download/) on your computer</li>
+    <li><a href="https://cyberduck.io/download/">Download Cyberduck</a> on your computer</li>
       <ul>
       <li>Note: you may download/use a different SFTP client (e.g., WinSCP, Fetch, Globus) if you prefer.</li>
       <li>Note: Cyberduck may prompt you to make a donation, but this is unnecessary and you can ignore</li>
@@ -141,7 +141,7 @@ Depending on the number and size of files/folders that you need to transfer to t
       <li>Select “more options” to reveal eight more bookmark settings</li>
       <li>Path: /corral/projects/NHERI/projects/1798100155562136046-242ac117-0001-012/</li>
         <ul>
-        <li>Note: the long number in this path identifies the CHEER project folder on DesignSafe. See [this guide](https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral) for more information about DesignSafe file paths.</li>
+        <li>Note: the long number in this path identifies the CHEER project folder on DesignSafe. See <a href="https://www.designsafe-ci.org/user-guide/managingdata/#setting-path-to-ds-on-corral">this guide</a> for more information about DesignSafe file paths.</li>
         </ul>
       <li>Web URL: [ignore]</li>
       <li>Download folder: [select folder that you’d like files to be downloaded to on your local computer]</li>
@@ -153,7 +153,7 @@ Depending on the number and size of files/folders that you need to transfer to t
       </ul>
     <li>Select the “corral” bookmark</li>
     <li>Enter your six-digit TACC token (accessible through your authenticator app on your phone)</li>
-    <li>You now have access to the CHEER project folder on DesignSafe. The file structure you see here should be the same as the [CHEER project folder available on the DesignSafe web interface](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/).</li>
+    <li>You now have access to the CHEER project folder on DesignSafe. The file structure you see here should be the same as the <a href="https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/">CHEER project folder available on the DesignSafe web interface</a>.</li>
     </ol>
   <li>Click on the thrust folder related to your project (Buildings, Economy, Government, Hazards, Households)</li>
     <ol>
@@ -173,11 +173,11 @@ Depending on the number and size of files/folders that you need to transfer to t
     <ol>
     <li>When you’re adding and moving files in Cyberduck, you will frequently be asked to add a TACC token. Therefore, it’s best to have your phone nearby and your authenticator app open when you’re transferring many files.</li>
     </ol>
-  <li>For help with transferring files on Cyberduck, submit a [help ticket](https://www.designsafe-ci.org/help/new-ticket/)</li>
+  <li>For help with transferring files on Cyberduck, submit a <a href="https://www.designsafe-ci.org/help/new-ticket/">help ticket</a></li>
 </ol>
 
 ## 3. File naming standards
-While everyone should review the [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md), the following summarizes the requirements for CHEER file naming.
+While everyone should review the <a href="https://cheer-hub.github.io/cheerkf/#/06a-CHEER_DataTips">CHEER Top Ten Data Tips</a>, the following summarizes the requirements for CHEER file naming.
 * **MOST IMPORTANT: do not use spaces in file names**
 * Underscores or capitalization are your friend (e.g., REACH_module_outputs, REACHmoduleOutputs)
 * Don’t use special characters (& ,* % # ;*( !@$^~' { [?<-)
