@@ -189,7 +189,7 @@ High performance computing (HPC) is the ability to process data and perform comp
 Now you’re likely interested in developing your code or using DesignSafe HPC resources. To do so, follow the instructions provided in the following guides:
 * CHEER Hub GitHub Procedures
 * CHEER Hub Metadata Template
-* CHEER Hub Data Publishing Checklist
+* [CHEER Hub Data Publishing Checklist](06b-CHEER_DataPublishingChecklist.md)
 
 
 
