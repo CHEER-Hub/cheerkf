@@ -1,4 +1,5 @@
 !!!!!!!!! THIS TEMPLATE IS A VERY VERY ROUGH DRAFT FOR DISCUSSION WITH THE KF* TEAM !!!!!!!!!!!!!
+
 !!!!!!!!! There are angled brackets used in the text of the markdown file which causes some text to disappear... this will need to be fixed. See the markdown file to better understand the content of this page !!!!!!!
 
 # CHEER Hub Metadata Template
