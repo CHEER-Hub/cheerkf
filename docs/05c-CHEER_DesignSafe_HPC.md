@@ -29,7 +29,7 @@ High performance computing (HPC) is the ability to process data and perform comp
   <li>On your dashboard, make sure you see “DesignSafe Project - CHEER (OCE24001)” under the “Active Projects” section</li>
     
   <p align="center">
-  <img align="center" src="_media/05c-DesignSafe_HPCDashboard.png" width="450px" alt="A screenshot of the dashboard layout on the TACC website.">
+  <img align="center" src="_media/05c-DesignSafe_HPCDashboard.png" width="600px" alt="A screenshot of the dashboard layout on the TACC website.">
   </p>
     <ol>
     <li>If you don’t see this project listed on your TACC dashboard, email the kf* manager and ask them to add your TACC username to the CHEER DesignSafe allocation</li>
@@ -60,7 +60,7 @@ High performance computing (HPC) is the ability to process data and perform comp
   <li>You should now see something like this in your SSH client:</li>
 
   <p align="center">
-  <img align="center" src="_media/05c-CHEER_DesignSafe_HPCTerminal.png" width="450px" alt="A screenshot of the terminal interface after logging into Frontera.">
+  <img align="center" src="_media/05c-CHEER_DesignSafe_HPCTerminal.png" width="600px" alt="A screenshot of the terminal interface after logging into Frontera.">
   </p>
 
   </ol>
