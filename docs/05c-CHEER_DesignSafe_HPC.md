@@ -135,7 +135,7 @@ High performance computing (HPC) is the ability to process data and perform comp
   </ol>
 <li>Create batch script (these batch scripts are used to prioritize jobs run on Frontera)</li>
   <ol>
-  <li>Download CHEER batch script template</li>
+  <li>Download the <a> href="https://drive.google.com/drive/folders/122c-G37c2Y3xRm4_6qJv848rzx0r1vfN">CHEER batch script available on the CHEER google drive</a> template</li>
     <ol>
     <li>Note: Other batch scripts are available in the <a href="https://docs.tacc.utexas.edu/hpc/frontera/">Frontera documentation</a></li>
     </ol>
