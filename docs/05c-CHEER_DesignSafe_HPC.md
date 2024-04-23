@@ -27,12 +27,12 @@ High performance computing (HPC) is the ability to process data and perform comp
   <li>Click “Log in” in the top right</li>
   <li>Use your TACC username and password to sign in </li>
   <li>On your dashboard, make sure you see “DesignSafe Project - CHEER (OCE24001)” under the “Active Projects” section</li>
-  <p align="center">
-  <img align="center" src="_media/05c-DesignSafe_HPCDashboard.png" width="450px" alt="A screenshot of the dashboard layout on the TACC website.">
-  </p>
     <ol>
     If you don’t see this project listed on your TACC dashboard, email the kf* manager and ask them to add your TACC username to the CHEER DesignSafe allocation
     </ol>
+  <p align="center">
+  <img align="center" src="_media/05c-DesignSafe_HPCDashboard.png" width="450px" alt="A screenshot of the dashboard layout on the TACC website.">
+  </p>
   </ol>
 <li>Open SSH client (differs for Windows and Mac)</li>
   <ol>
