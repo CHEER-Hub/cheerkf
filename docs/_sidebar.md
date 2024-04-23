@@ -11,3 +11,5 @@
   * [CHEER Hub DesignSafe HPC Usage Procedures](05c-CHEER_DesignSafe_HPC)
 * [CHEER Data and Code Standards](06-CHEER_DataCodeStandards.md)
   * [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md)
+  * [CHEER Hub Metadata Template](06b-CHEER_MetadataTemplate.md)
+  * [CHEER Hub Data Publishing Checklist](06c-CHEER_DataPublishingChecklist.md)
