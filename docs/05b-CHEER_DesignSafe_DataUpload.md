@@ -198,6 +198,7 @@ There are largely two types of data that can be shared internally among CHEER te
 1. Data used as input/output among modules in the STARR framework
 2. Data used internally in Thrust teams
 
+
 *Only data that is used as input/output for any of the modules in the STARR framework* (see image below) *should be saved in the STARR folder* in the CHEER project folder on DesignSafe. The STARR folder on the CHEER project folder ***MUST NOT*** have any intermediate files specific to a module. These intermediary files should be saved in a Thrust folder on the CHEER project folder on DesignSafe. For questions, ask the kf* Manager (see heading of this page for contact info).
 
 <p align="center">
