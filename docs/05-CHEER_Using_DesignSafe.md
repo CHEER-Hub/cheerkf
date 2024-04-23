@@ -3,3 +3,4 @@ CHEER uses data storage and high-performance computing resources available on [D
 
 * [CHEER Hub DesignSafe Sign-Up](05a-CHEER_DesignSafe_SignUp.md)
 * [CHEER Hub DesignSafe Data Upload Procedures](05b-CHEER_DesignSafe_DataUpload)
+* [CHEER Hub DesignSafe HPC Usage Procedures](05c-CHEER_DesignSafe_HPC)

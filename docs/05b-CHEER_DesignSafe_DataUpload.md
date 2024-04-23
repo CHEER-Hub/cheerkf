@@ -58,7 +58,7 @@ Depending on the number and size of files/folders that you need to transfer to t
 <li>Review the CHEER Hub’s [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md) to ensure your data aligns with the CHEER recommendations</li>
 
 
-<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="350px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
+<img align="right" src="_media/05b-CHEER_DesignSafe_ChangingFilesInterface.png" width="450px" alt="A screenshot of the DesignSafe interface showing the buttons to use to adjust files">
 
 
 <li>If you are transferring files that are < 2GB in size, or < 25 files or < 3 folders, you can follow the <b>normal data transfer method</b>:</li>
