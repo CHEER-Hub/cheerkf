@@ -207,6 +207,8 @@ There are largely two types of data that can be shared internally among CHEER te
 
 Each Thurst team should decide how they want to save and share data specific to the development of their internal work. All thrust-specific data should be saved within their Thrust folder on the CHEER project folder on DesignSafe. For questions, ask the kf* Manager (see heading of this page for contact info).
 
+!!!!!DO WE NEED TO ADD SOMETHING IN THIS SECTION TO CLARIFY ARCHIVING AND VERSIONING OF DATASETS? AND WHAT DO WE DO ONCE DATA IS PUBLISHED? DO WE REMOVE IT / ARCHIVE IT FROM THE STARR FOLDER BECAUSE IT'S NOW PUBLISHED AND WON'T CHANGE?!!!!
+
 ## 5. Publishing CHEER Data
 Before publishing a datasest, you must notify the CHEER kf* Manager (see heading of this page for contact info). The kf* team will review the organization and documentation of your code to ensure it aligns with CHEER guidelines. See the CHEER Data Publishing Checklist for details.
 
