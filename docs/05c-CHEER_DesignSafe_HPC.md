@@ -18,7 +18,7 @@ High performance computing (HPC) is the ability to process data and perform comp
 
 ## 2. 	Using Frontera
 <ol>
-<li>If you haven’t already signed up for a TACC account sign, follow the <a href="05a-CHEER_DesignSafe_SignUp.md">CHEER DesignSafe Sign-Up Procedures</a>a></li>
+<li>If you haven’t already signed up for a TACC account sign, follow the <a href="[05a-CHEER_DesignSafe_SignUp.md](https://cheer-hub.github.io/cheerkf/#/05a-CHEER_DesignSafe_SignUp)">CHEER DesignSafe Sign-Up Procedures</a></li>
 <li>Upload your input datafiles on the CHEER DesignSafe project folder (refer to [DesignSafe Data Upload Procedures](05b-CHEER_DesignSafe_DataUpload))</li>
 <li>If you haven’t downloaded cyberduck and set up the TACC multi-factor authentication on your authenticator app on your phone, go back to the [DesignSafe Data Upload Procedures](05b-CHEER_DesignSafe_DataUpload) doc and complete these steps.</li>
 <li>Make sure you’ve been added to the CHEER DesignSafe HPC allocation</li>
