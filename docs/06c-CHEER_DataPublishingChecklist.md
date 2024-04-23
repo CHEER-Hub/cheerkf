@@ -1,4 +1,4 @@
-# CHEER Hub Top Ten Data Tips
+# CHEER Hub Data Publishing Checklist
 
 Prepared by: Caroline Williams
 
