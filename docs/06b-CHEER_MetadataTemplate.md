@@ -1,4 +1,5 @@
 !!!!!!!!! THIS TEMPLATE IS A VERY VERY ROUGH DRAFT FOR DISCUSSION WITH THE KF* TEAM !!!!!!!!!!!!!
+!!!!!!!!! There are angled brackets used in the text of the markdown file which causes some text to disappear... this will need to be fixed. See the markdown file to better understand the content of this page !!!!!!!
 
 # CHEER Hub Metadata Template
 
@@ -18,9 +19,7 @@ Coastal Hazards, Equity, Economic prosperity, and Resilience (CHEER) Hub
 
 NSF Award #2209190
 
-Prepared by: <your name>, <your title>, <your university>, <your PI’s email>
-
-PI: <your PI’s name>, <PI’s title>, <PI’s university>, <your PI’s email>
+Prepared by: <your name>, <your title>, <your university>, <your PI’s email>; PI: <your PI’s name>, <PI’s title>, <PI’s university>, <your PI’s email>
 
 Collaborators: <Collaborator1’s name>, <Collaborator1’s title>, <Collaborator1’s university>, <Collaborator1’s email>; <your Collaborator2’s name>, <Collaborator2’s title>, <Collaborator2’s university>, <Collaborator2’s email>; 
 
