@@ -1,3 +1,5 @@
+!!!!!!!!! Note to self (CW): Check to see if there are angled brackets used in the text of the markdown file which causes some text to disappear... this will need to be fixed!!!!!!!
+
 # CHEER Hub DesignSafe Data Upload
 
 Prepared by: Caroline Williams
