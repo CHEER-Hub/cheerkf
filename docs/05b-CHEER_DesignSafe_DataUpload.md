@@ -216,7 +216,7 @@ Before publishing a datasest, you must notify the CHEER kf* Manager (see heading
 Now you’re likely interested in developing your code or using DesignSafe HPC resources. To do so, follow the instructions provided in the following guides:
 * CHEER Hub Code Templates
 * CHEER Hub GitHub Procedures
-* CHEER Hub DesignSafe HPC Usage Procedures
+* [CHEER Hub DesignSafe HPC Usage Procedures](05c-CHEER_DesignSafe_HPC.md)
 
 
 
