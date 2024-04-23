@@ -193,7 +193,23 @@ While everyone should review the [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTip
 * Only use a period before the file extension
 * Limit file names to 32 characters or less.
 
-## 4. Next Steps
+## 4. Sharing data internally with CHEER team members
+There are largely two types of data that can be shared internally among CHEER team members:
+1. Data used as input/output among modules in the STARR framework
+2. Data used internally in Thrust teams
+
+*Only data that is used as input/output for any of the modules in the STARR framework* (see image below) *should be saved in the STARR folder* in the CHEER project folder on DesignSafe. The STARR folder on the CHEER project folder ***MUST NOT*** have any intermediate files specific to a module. These intermediary files should be saved in a Thrust folder on the CHEER project folder on DesignSafe. For questions, ask the kf* Manager (see heading of this page for contact info).
+
+<p align="center">
+  <img align="center" src="_media/05b-CHEER_STARRframework.png" width="600px" alt="A diagram showing the modules of the STARR framework and their interconnections">
+</p>
+
+Each Thurst team should decide how they want to save and share data specific to the development of their internal work. All thrust-specific data should be saved within their Thrust folder on the CHEER project folder on DesignSafe. For questions, ask the kf* Manager (see heading of this page for contact info).
+
+## 5. Publishing CHEER Data
+Before publishing a datasest, you must notify the CHEER kf* Manager (see heading of this page for contact info). The kf* team will review the organization and documentation of your code to ensure it aligns with CHEER guidelines. See the CHEER Data Publishing Checklist for details.
+
+## 6. Next Steps
 Now you’re likely interested in developing your code or using DesignSafe HPC resources. To do so, follow the instructions provided in the following guides:
 * CHEER Hub Code Templates
 * CHEER Hub GitHub Procedures
