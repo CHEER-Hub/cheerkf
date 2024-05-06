@@ -13,3 +13,6 @@
   * [CHEER Hub Top Ten Data Tips](06a-CHEER_DataTips.md)
   * [CHEER Hub Metadata Template](06b-CHEER_MetadataTemplate.md)
   * [CHEER Hub Data Publishing Checklist](06c-CHEER_DataPublishingChecklist.md)
+* CHEER GitHub Procedures
+* [CHEER Hub Data Cataloging Procedures](08-CHEER_CatalogProcedures.md)
+* [CHEER kf* Management Procedures](09-CHEER_kfManagement.md)
