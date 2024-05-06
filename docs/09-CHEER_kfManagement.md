@@ -1,6 +1,4 @@
-!!!!!!! Add links to GitHub proceedures once created !!!!!!!!!!
-
-!!!!!!! Add links to CHEER Hub Zotero Cataloging procedures doc (once created) !!!!!!!!!!!
+!!!!!!! Add details to sections about github and data cataloging, as needed !!!!!!!!!!
 
 # CHEER Hub kf* Management Procedures
 
