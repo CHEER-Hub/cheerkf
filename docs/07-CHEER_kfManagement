@@ -1,0 +1,75 @@
+# CHEER Hub DesignSafe Sign-Up Procedures
+
+Prepared by: Caroline Williams
+
+Updated by: N/A
+
+Last Update: April 11, 2024
+
+kf* Manager: Caroline Williams (cjw@udel.edu)
+
+***
+
+## 1. 	TACC/DesignSafe User Management
+
+CHEER team members will email their TACC account user names to you after they set up their TACC accounts
+Add this user to the DesignSafe CHEER project (PRJ-4392)
+Go to DesignSafe website
+Sign in using your TACC account
+Click “Use DesignSafe” > “Data Depot”, go to “My Projects”, then PRJ-4392
+On the right side of the screen, click “Edit Project”
+Click “+ Add another Project Member”
+Add the new TACC username
+If you’re having trouble finding the person, you can also try to search them by name or email. Confirm that the TACC username shown aligns with the username they emailed to you
+Click “Update Project” at the bottom of the form
+Also add this user to the CHEER Frontera Allocation on TACC 
+Go to TACC website
+Sign into your TACC account
+Click on your account name in upper right corner and select “My Dashboard”
+On the left hand side, click “Projects and Allocations”
+Click on “DesignSafe Project - CHEER”
+Click on “Add Users”, search by username, and add user
+If you’re having trouble finding the person, you can also try to search them by name or email. Confirm that the TACC username shown aligns with the username they emailed to you
+Note: Only the PI and Allocation Manager listed on the CHEER DesignSafe project can add users to CHEER allocation
+Note: (I believe) only PI can change Allocation Manager
+Add the name, TACC user email, and TACC username to the CHEER User Management spreadsheet on the “TACC” tab
+In the TACC portal, go to the CHEER project and click on the name of the user you added. Copy the name, username, and email to the CHEER User Management spreadsheet
+Reply with the following email:
+Thank you for sending your TACC username. You have been added to the CHEER DesignSafe Project for data staging (PRJ-4392) and the CHEER HPC allocation. For DesignSafe data storage and access, refer to the CHEER Hub DesignSafe Data Upload Procedures document. For HPC usage, refer to the CHEER Hub DesignSafe Computing Procedures document. For any other questions, feel free to reach out.
+Deciding what to do about sensitive data
+CHEER members will email you if they have sensitive data that they want to put on TACC (per DesignSafe Data Upload Procedures).
+When this happens, set up a meeting with the kf* PI (Chris Lenhardt), team member(s) with the sensitive data, and/or other relevant CHEER members (CHEER PI (Rachel Davidson) or CHEER Integration Lead (Linda Nozick)). 
+Ask the team members to send any relevant information prior to the scheduled meeting, including data agreements, IRB protocols, or other specifics about the data in question.
+Prior to the meeting, also review the information about TACC’s Protected Data Service
+Following the meeting, you may want to set up a meeting with Tim Cockerill (DesignSafe’s TACC rep; cockerill@tacc.utexas.edu) to advise on how to proceed
+At this point, you may need to formally submit a request for protected data services at TACC
+Ensure all team members understand the plan as to how the sensitive data will be handled on DesignSafe for storage, analysis, and publication purposes
+
+
+GitHub management
+CHEER team members will email their GitHub account user names to you after they set up their GitHub accounts
+Add this to the CHEER User Management spreadsheet on the “GitHub” tab
+Add this user to CHEER GitHub
+Set permissions for user
+Reply with the following email:
+Thank you for sending your GitHub username. You have been added to the CHEER GitHub. Please follow the CHEER Hub GitHub Procedures doc for directions on how to use the CHEER GitHub space.
+DesignSafe project publishing
+Review…
+
+
+Data
+Data publishing
+
+2. 	For kf* Manager(s):
+On-going tasks
+Check data catalog form
+Check other things on website, especially documentation
+Check allocation status
+When data catalog entry is submitted:
+Check that data submission adheres to all checklists (file structure, documentation, metadata)
+Update data and/or Presentation & Publication catalog on kf*
+Update relevant team section on kf*
+
+
+
+
