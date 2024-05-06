@@ -48,7 +48,7 @@ kf* Manager: Caroline Williams (cjw@udel.edu)
 * Add this user to [CHEER GitHub](https://github.com/CHEER-Hub)
 * Set permissions for user
 * Reply with the following email:
-  * Thank you for sending your GitHub username. You have been added to the CHEER GitHub. Please follow the CHEER Hub GitHub Procedures doc for directions on how to use the CHEER GitHub space.
+  * Thank you for sending your GitHub username. You have been added to the CHEER GitHub. Please follow the [CHEER Hub GitHub Procedures](08-CHEER_GitHub.md) for directions on how to use the CHEER GitHub space.
 
 ## 3. 	Dealing with sensitive data on DesignSafe
 * CHEER members will email you if they have sensitive data that they want to put on a TACC server (per DesignSafe Data Upload Procedures).
@@ -67,8 +67,8 @@ kf* Manager: Caroline Williams (cjw@udel.edu)
 * Code
   * You may be responsible for publishing code via Zenodo and obtaining a DOI
 * Other products with a DOI
-  * Make sure all CHEER outputs are cataloged accoriding to the CHEER Hub Zotero Cataloging procedures
-* Any published product should be documented on the CHEER Zotero according to the CHEER Hub Zotero Cataloging procedures
+  * Make sure all CHEER outputs are cataloged accoriding to the [CHEER Hub Zotero Cataloging procedures](08-CHEER_CatalogProcedures.md)
+* Any published product should be documented on the CHEER Zotero according to the [CHEER Hub Zotero Cataloging procedures](08-CHEER_CatalogProcedures.md)
 
 
 ## 5. Ongoing kf* management tasks
