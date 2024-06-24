@@ -71,19 +71,19 @@ Model parameters
 	Area unit of analysis
 	Analysis methods
 
-## 6. 	Limitations
+## 6. 	Limitations [Optional]
 Describe notable limitations (e.g., The model and outputs should only be applied to investigations related to single-family housing units.) 
 
-[Optional]
-## 7. 	Additional details about data processing method
-Additional information not included in accompanying paper (e.g., outliers excluded, imputation methods, What was considered but not included, and reason for not including <- this can especially be helpful for future researchers, so they don’t have to go down the rabbit holes you did)
 
-## 8. 	Brief description of modeling method
+## 7. 	Additional details about data processing method [Optional]
+Additional information not included in accompanying paper (e.g., outliers excluded, imputation methods, What was considered but not included, and reason for not including [This can especially be helpful for future researchers, so they don’t have to go down the rabbit holes you did.This information can be included in the Research Thrust folder if not included here.]
+
+## 8. 	Brief description of modeling method [Optional]
 Additional information not included in the accompanying paper
-[Optional: What method was considered but not included, and reason for not including <- this can especially be helpful for future researchers, so they don’t have to go down the rabbit holes you did]
+[Optional: What method was considered but not included, and reason for not including <- this can especially be helpful for future researchers, so they don’t have to go down the rabbit holes you did. This information can be included in the Research Thrust folder if not included here.]
 
-## 9. 	How to modify for different applications (for different study area, timeframe, building type, policy evaluation, etc.)
-Describe what a user would need to do to apply this method to their analysis of interest 
+## 9. 	How to modify for different applications (for different study area, timeframe, building type, policy evaluation, etc.) [Optional]
+Describe what a user would need to do to apply this method to their analysis of interest. This could be mentioned in Item 5 for convenience.
 
 
 
