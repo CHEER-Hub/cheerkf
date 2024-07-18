@@ -3,34 +3,41 @@
 # Contents
  - [Data Management](#data-management) 
  - [Code Management](#code-management)
- - [Description of the Hazards Thrust Data Set, Version 1.0](#description-version1-dataset)
+ - [Description Version 1.0 Dataset, 5 Jun 2024](#description-version-1.0-dataset,-5-Jun-2024)
    - [General Computational Process](#general-computational-process) 
    - [File Header](#file-header)
-   - 
-## Data Management
-Use DesignSafe repo...
-See...
+ - [Prior versioning notes](#prior-version-notes) 
 
-## Code Management
-Use GitHub...
-See repo here...
+# Data Management
+Dataset location: DesignSafe 
+- [V1.0, North Carolina](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/Hazards%2FNC_Present_0_v1.zip) 
 
-# Description Version 1 Dataset
+# Hazard Model Information
+General Information:
+ - ADCIRC
+   - Source: https://github.com/adcirc/adcirc
+   - General info: https://wiki.adcirc.org/Main_Page, https://www.adcirc.org, https://www.adcircpredition.org 
+ - P-Cliper
+ - CREST
 
-Description of the Hazards Thrust Data Set, Version 1.0
+## Version 1.0 Model configuration:
+North Carolina
+ - ADCIRC
+ - CREST
+ - P-Cliper
 
-Version: 1.0
+See below for previous version details.
 
-Blanton/Chinnathambi, 10 Oct 2023
+# Description Version 1.0 Dataset
+Posting date: 5 Jun 2024
 
 The version 1.0 of the Hazards Thrust contains the hazard model output (response) for each hurricane event impacting the North Carolina coast from the first 1000 years of the STORM stochastic / synthetic dataset for the present climate. 
 
 The STORM dataset is described in the references below. 
 
-Dataset location: DesignSafe here.
+Dataset location: DesignSafe  [here.](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/Hazards%2FNC_Present_0_v1.zip) 
 
 ## General computational process 
-
 For each track in {STORM dataset for NC, for the present climate}:
 1. OU: run CREST to generate:
 - Time series of river flows for input into ADCIRC
@@ -51,7 +58,6 @@ For each track in {STORM dataset for NC, for the present climate}:
 
 
 ## File Header
-
 Each file has a header defined as: 
 ```
 # Project: NSF-CHEER
@@ -78,22 +84,23 @@ etc etc
 Dry values are indicated with a flag of -9999.  
 
 ### Variable definitions:
-
 Maximum Inundation Level [meters above terrain, dry == -9999 meters] - Computed by CREST as the highest precipitation-driven water level above ground level.  A value of -9999 indicates no accumulated rainfall at the location.
 
 Maximum Surge Water Level [meters MSL, dry == -9999 meters] - Computed by ADCIRC as the highest water level reached (during the simulation) above the mean sea level (MSL) datum. MSL is the vertical datum used to define the topographic heights and bathymetric depths of the ADCIRC grid nodes.  A value of -9999 indicates no "storm surge" at the location.  I.e., the location never got wetted during the simulation.
 
 Maximum Surge Inundation Level [meters above terrain, dry == -9999 meters] - Computed by ADCIRC as the maximum water depth reached (during the simulation) above ground level for ADCIRC nodes that are "land" nodes.  Ground level in this case is ADCIRC's representation of the topographic height, and may not be the same as the CREST model's topography.  
 
-## STORM Synthetic Hurricane Dataset(s) references
-https://www.nature.com/articles/s41597-020-0381-2
-
-https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d
-
-https://data.4tu.nl/articles/STORM_IBTrACS_present_climate_synthetic_tropical_cyclone_tracks/12706085?file=24876980
-
+# STORM Synthetic Hurricane Dataset(s) references
 The 10,000 year TC STORM dataset, based on the present climate, is publicly accessible and can be found on the 4TU.Centre for Research Data repository (https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d). The dataset is split in separate files per basin, with each .txt-file containing 1,000 years of simulations (i.e. 10 files per basin). Each .txt-file consists of a series of arrays, with each array being a single time step (3-hourly) for a synthetic TC. The colmns of the arrays are given in this table:
 
 Bloemendaal, Nadia; Haigh, I.D. (Ivan); de Moel, H. (Hans); Muis, S; Haarsma, R.J. (Reindert) et. al. (2022): STORM IBTrACS present climate synthetic tropical cyclone tracks. Version 4. 4TU.ResearchData. dataset. https://doi.org/10.4121/12706085.v4
 
 Bloemendaal, Nadia; de Moel, H. (Hans); Martinez, Andrew B.; Muis, S. (Sanne); Haigh, I.D. (Ivan) et. al. (2023): STORM Climate Change synthetic tropical cyclone tracks. Version 2. 4TU.ResearchData. dataset. https://doi.org/10.4121/14237678.v2
+
+ - https://www.nature.com/articles/s41597-020-0381-2
+ - https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d
+ - https://data.4tu.nl/articles/STORM_IBTrACS_present_climate_synthetic_tropical_cyclone_tracks/12706085?file=24876980
+
+# Prior Version Notes 
+
+V0: 
