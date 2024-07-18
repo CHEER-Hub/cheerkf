@@ -6,7 +6,7 @@ Updated by: N/A
 
 Last Update: April 11, 2024
 
-kf* Manager: Caroline Williams (cjw@udel.edu)
+kf* Manager: Caroline Williams (emeritus)
 
 ***
 
@@ -32,7 +32,7 @@ If you’re having problems, you can try:
 2. Submitting a [help ticket](https://www.designsafe-ci.org/help/new-ticket/). This will submit a ticket to TACC personnel who can help you set up your account.
 
 ## 3. 	Share TACC username with CHEER kf* manager
-After setting up your TACC account, please email your TACC username to the kf* manager (see email in header of this doc). ***Do not*** email your TACC password.
+After setting up your TACC account, please email your TACC username to cheer-hub@udel.edu. ***Do not*** email your TACC password.
 
 ## 4. 	Join the DesignSafe Slack Channel
 The DesignSafe Slack channel is useful because it provides live TACC server updates, can provide help with DesignSafe questions quickly (often quicker than submitting a help ticket), and supports a community of natural hazards researchers.
