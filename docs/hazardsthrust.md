@@ -15,7 +15,7 @@ See...
 Use GitHub...
 See repo here...
 
-# Description Version1 Dataset
+# Description Version 1 Dataset
 
 Description of the Hazards Thrust Data Set, Version 1.0
 
@@ -72,9 +72,9 @@ etc etc
 ```
 
 ## Units 
-The units of the wind speeds are m/s, at a vertical level 10-meter, and representing a 10-minute averaging period.  Both open-terrain and open-water are provided.
+ - Wind speeds are m/s, at a vertical level 10-meter, and representing a 10-minute averaging period.  Both open-terrain and open-water are provided.
 
-The water levels (columns 5-7) are in meters relative to either the ground / terrain level (for inundation) or MSL for the Surge Water Level. 
+ - Water levels (columns 5-7) are in meters relative to either the ground / terrain level (for inundation) or MSL for the Surge Water Level. 
 Dry values are indicated with a flag of -9999.  
 
 ### Variable definitions:
@@ -85,7 +85,7 @@ Maximum Surge Water Level [meters MSL, dry == -9999 meters] - Computed by ADCIRC
 
 Maximum Surge Inundation Level [meters above terrain, dry == -9999 meters] - Computed by ADCIRC as the maximum water depth reached (during the simulation) above ground level for ADCIRC nodes that are "land" nodes.  Ground level in this case is ADCIRC's representation of the topographic height, and may not be the same as the CREST model's topography.  
 
-## STORM references
+## STORM Synthetic Hurricane Dataset(s) references
 https://www.nature.com/articles/s41597-020-0381-2
 
 https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d
