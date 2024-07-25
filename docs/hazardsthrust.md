@@ -77,13 +77,13 @@ etc etc
 ## Units 
  - Wind speeds are m/s, at a vertical level 10-meter, and representing a 10-minute averaging period.  Both open-terrain and open-water are provided.
 
- - Water levels (columns 5-7) are in meters relative to either the ground / terrain level (for inundation) or MSL for the Surge Water Level. 
+ - Water levels (columns 5,6,8,9) are in meters relative to either the ground / terrain level (for inundation) or MSL for the Surge Water Level. 
 Dry values are indicated with a flag of -9999.  
 
- - Accumulated Precipitation
+ - Accumulated Precipitation (mm)
 
 ## Variable definitions:
-**Maximum Inundation Level** [meters above terrain, dry == -9999 meters] - Computed by CREST as the highest precipitation-driven water level above ground level.  A value of -9999 indicates no accumulated rainfall at the location.
+**Maximum Inundation Level** [meters above terrain, dry == -9999 meters] - Computed by CREST as the highest precipitation-driven water level above ground level.  A value of -9999 indicates that no riverine flooding occurs on that pixel but does not indicate whether rainfall ever fell on that region.
 
 **Minimum Inundation Level**
 
@@ -91,7 +91,7 @@ Dry values are indicated with a flag of -9999.
 
 **Maximum Surge Inundation Level** [meters above terrain, dry == -9999 meters] - Computed by ADCIRC as the maximum water depth reached (during the simulation) above ground level for ADCIRC nodes that are "land" nodes. Ground level in this case is ADCIRC's representation of the topographic height, and may not be the same as the CREST model's topography.  
 
-**Accumulated Precipitation** 
+**Accumulated Precipitation** [millimeters, dry == 0.0] - Computed by P-CLIPER as the total rainfall accumulation over the length of the event and is not relative to any datum. A value of 0.0 indicates that no precipitation fell on that region during the event.
 
 **Maximum Wind Speed, Open Water** [meters/sec open-water] - Computed by the Generalized Asymmetric Holland Model (GAHM) as the maximum wind speed for an individual storm above the open-water level across the entire CREST grid (250 m equidistant grid). 
 
