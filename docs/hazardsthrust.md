@@ -95,7 +95,7 @@ Dry values are indicated with a flag of -9999.
 
 **Maximum Wind Speed, Open Water** [meters/sec open-water] - Computed by the Generalized Asymmetric Holland Model (GAHM) as the maximum wind speed for an individual storm above the open-water level across the entire CREST grid (250 m equidistant grid). 
 
-**Maximum Wind Speed, Open Terrain** [meters/sec open-terrain-adjusted] - Computed by the Generalized Asymmetric Holland Model (GAHM) as the maximum wind speed for an individual storm and adjusted to include the surface roughness of the winds over open-terrain. The adjusted wind speeds are generated for the entire CREST grid (250 m equidistant grid).
+**Maximum Wind Speed, Open Terrain** [meters/sec open-terrain-adjusted] - Computed by the Generalized Asymmetric Holland Model (GAHM) as the maximum wind speed for an individual storm and adjusted to include the surface roughness component to the winds over open-terrain. The adjusted wind speeds are generated for the entire CREST grid (250 m equidistant grid).
 
 
 # STORM Synthetic Hurricane Dataset
