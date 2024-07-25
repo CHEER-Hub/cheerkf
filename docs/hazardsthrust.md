@@ -31,17 +31,24 @@ North Carolina
  - CREST
  - P-Cliper
 
-See below for previous version details.
+See [below](#prior-version-notes) for previous version details.
 
 # Description Version 1.0 Dataset
 Posting date: 5 Jun 2024
 
+Spatial Resolution: 250 m (on the CREST model computational grid)
+
+Temporal Resolution: N/A.  Min, Max, accumulated fields
+
 Version 1.0 of the Hazards Thrust contains the hazard model output (response) for each hurricane event impacting the North Carolina coast from the first 1000 years of the [STORM stochastic / synthetic dataset](#storm-synthetic-hurricane-dataset) for the present climate. 
 
-Each event's output (eg maximum wind speed) is interpolated onto a consistent equidistant grid with 250 m resolution, which matches the CREST hydrological grid.  This is done to simplify handling of the ADCIRC data (which is otherwise defined on its triangular, variable resolution grid.)  An example of the maximum water level and maximum open-water wind speed is shown below. 
+Each event's output (eg maximum wind speed) is interpolated onto a consistent equidistant grid with 250 m resolution, which matches the CREST hydrological grid.  This is done to simplify handling of the ADCIRC data (which is otherwise defined on its triangular, variable resolution grid.)  The spatial footprint of the output is shown in this figure.
+
+<img width="429" alt="Screenshot 2024-07-25 at 8 48 35 AM" src="https://github.com/user-attachments/assets/e7f04dd2-ad16-49d5-a2a5-29a6c2bd93cd">
+
+An example of the maximum water level and maximum open-water wind speed is shown below. 
 
 ![NC_Present_0_01454](https://github.com/user-attachments/assets/939eff64-60ae-4c53-b47c-b6647c98f1c4)
-
 
 ## Dataset location: DesignSafe  [here.](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/Hazards%2FNC_Present_0_v1.zip) 
 
@@ -73,12 +80,23 @@ etc etc
  - Water levels (columns 5-7) are in meters relative to either the ground / terrain level (for inundation) or MSL for the Surge Water Level. 
 Dry values are indicated with a flag of -9999.  
 
+ - Accumulated Precipitation
+
 ## Variable definitions:
-Maximum Inundation Level [meters above terrain, dry == -9999 meters] - Computed by CREST as the highest precipitation-driven water level above ground level.  A value of -9999 indicates no accumulated rainfall at the location.
+**Maximum Inundation Level** [meters above terrain, dry == -9999 meters] - Computed by CREST as the highest precipitation-driven water level above ground level.  A value of -9999 indicates no accumulated rainfall at the location.
 
-Maximum Surge Water Level [meters MSL, dry == -9999 meters] - Computed by ADCIRC as the highest water level reached (during the simulation) above the mean sea level (MSL) datum. MSL is the vertical datum used to define the topographic heights and bathymetric depths of the ADCIRC grid nodes.  A value of -9999 indicates no "storm surge" at the location.  I.e., the location never wetted during the simulation.
+**Minimum Inundation Level**
 
-Maximum Surge Inundation Level [meters above terrain, dry == -9999 meters] - Computed by ADCIRC as the maximum water depth reached (during the simulation) above ground level for ADCIRC nodes that are "land" nodes.  Ground level in this case is ADCIRC's representation of the topographic height, and may not be the same as the CREST model's topography.  
+**Maximum Surge Water Level** [meters MSL, dry == -9999 meters] - Computed by ADCIRC as the highest water level reached (during the simulation) above the mean sea level (MSL) datum. MSL is the vertical datum used to define the topographic heights and bathymetric depths of the ADCIRC grid nodes.  A value of -9999 indicates no "storm surge" at the location.  I.e., the location never wetted during the simulation.
+
+**Maximum Surge Inundation Level** [meters above terrain, dry == -9999 meters] - Computed by ADCIRC as the maximum water depth reached (during the simulation) above ground level for ADCIRC nodes that are "land" nodes. Ground level in this case is ADCIRC's representation of the topographic height, and may not be the same as the CREST model's topography.  
+
+**Accumulated Precipitation** 
+
+**Maximum Wind Speed, Open Terrain**
+
+**Maximum Wind Speed, Open Water**
+
 
 # STORM Synthetic Hurricane Dataset
 The 10,000 year TC STORM dataset, based on the present climate, is publicly accessible and can be found on the 4TU.Centre for Research Data repository (https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d). The dataset is split in separate files per basin, with each .txt-file containing 1,000 years of simulations (i.e. 10 files per basin). Each .txt-file consists of a series of arrays, with each array being a single time step (3-hourly) for a synthetic TC. The colmns of the arrays are given in this table:
