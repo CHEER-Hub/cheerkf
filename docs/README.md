@@ -2,7 +2,7 @@
 
 > What you need to know...
 
-he CHEER Knowledge Framework contains the relevant information on how the CHEER project is organized, how the project team does its work, CHEER project policies and procedures, and other related documentation.
+The CHEER Knowledge Framework contains the relevant information on how the CHEER project is organized, how the project team does its work, CHEER project policies and procedures, and other related documentation.
 
 The goal of the CHEER /kf* is to facilitate the task work of the project, i.e. research-related efforts, as well as the team work, i.e. what the team does to work as a team.
 
