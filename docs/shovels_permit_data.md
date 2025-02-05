@@ -1,0 +1,3 @@
+# CHEER Project Shovels Permit Data
+
+The CHEER Project has obtained an export of the Shovels Permit Database.  To access the data ...
