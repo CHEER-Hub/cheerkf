@@ -45,7 +45,7 @@ The statistics are given on an average for all states, but critical states, i.e.
 - The walkthrough on this code execution within the DesignSafe environment is available at [**Descriptive PowerPoint file.**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
 ## Data Usage Form
-- The Google Sheet file at [link]() helps to keep track of research endeavors on this data, so please kindly fill this form; thank you.
-- The recorded responses are saved at [link](), which we encourage you check that out. Thank you.
+- The Google Sheet file at [link](https://docs.google.com/forms/d/e/1FAIpQLScd733Tc6RolmnzLT9DV03IZrJvQsyH5JtQTCejk6X1IvhP9Q/viewform?usp=dialog) helps to keep track of research endeavors on this data, so please kindly fill this form; thank you.
+- The recorded responses are saved at [link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670), which we encourage you check that out. Thank you.
  
 
