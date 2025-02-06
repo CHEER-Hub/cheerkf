@@ -1,18 +1,38 @@
 # CHEER Project Shovels Permit Data
 
 # Contents
- - [Data Management](#data-management) 
- - [Code Management](#code-management)
- - [Description Version 1.0 Dataset, 5 Jun 2024](#description-version-1.0-dataset,-5-Jun-2024)
-   - [General Computational Process](#general-computational-process) 
-   - [File Header](#file-header)
- - [Prior versioning notes](#prior-version-notes) 
+ - [Original Data](#original-data) 
+ - [Data Processing](#data-processing)
+ - [Feature Statistics](#Feature-Statistics)
+ - [Access Mrthod (Jupyter Notebook)](#Access-Method) 
 
-# Data Management
+# Original Data
 Dataset location: DesignSafe 
-- [V1.0, North Carolina](https://www.designsafe-ci.org/data/browser/projects/1798100155562136046-242ac117-0001-012/Hazards%2FNC_Present_0_v1.zip) 
+- Shovel Permkit Data (Original): ([Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data))
 
-# Hazard Model Information
+# Data Processing
+This section describes, first, data cleaning and error correction inside the original data (#data-cleansing) and second, how the data is organized for an easier access.
+- **Data Cleaning:**
+  Data issues with the original database contains:
+   - **Swapped lattitude and longitude values**:
+   By knowing the range of lattitude and longitudes on the ESPG:4326 system, those columns are readily identified and corrections are made
+   - **Different Missing Values Format**:
+The missing values inisde the original data were noted using different notation; all are identified and turned into (numpy) missing value format for easier tracking.
+
+- **Re-structuring Data**:
+The original data comes with no specific order, such as being state-wise ordered, etc. Since no mising values exist for the original data column "STATE", the cleansed original data is re-ordered in a state-wise manner
+
+# Feature Statistics
+Over 90 attributes exist in the original data. Through observing features and they values, we coudl categorize them into 7 distinct groups to better understand the data (For a complete list of all features, you can follow the [**Descriptive PowerPoint file at]().
+- **Unusable** These columns either suffers from all missing values, or are hashed, or ciphered in anyways uncomprehencible by the users. They must shall be removed, and are thus.
+- ID columns
+- Location
+- Property-related
+- Owner-Applicant
+- Permit Details
+- Binary Choices
+![image](https://github.com/user-attachments/assets/241fbfe5-c97f-483e-8978-2ee65bd9887b)
+
 General Information:
  - ADCIRC
    - Source: https://github.com/adcirc/adcirc
