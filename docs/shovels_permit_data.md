@@ -1,6 +1,6 @@
 # CHEER Project Shovels Permit Data
 
-If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes time and resources.
+If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes time and resources. Thanks!
 
 ## Contents
 - [Original Data](#original-data)
@@ -12,7 +12,7 @@ If you plan to use this data, please ensure you fill out the [Data Usage Form](#
 ## Original Data
 **Dataset location:** DesignSafe  
 - **Shovel Permit Data (Original):** [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data) These are the 'original' raw data, please **do not edit**, change, or delete these files.
-- There are over 200 files with many attribute columns and ultimately tens of millions of data rows.
+- There are over 200 files with many attribute columns and ultimately tens of millions of data rows. Please use the processed data for analysis, see [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook).
 - If you can not access any of the links that take you to DesignSafe Data Depot, check to make sure you have an account on DesignSafe and that you have been added to the project.
 
 ## Raw Data Processing
@@ -54,6 +54,9 @@ Statistics are presented as an average for all states, but **critical states** (
 - A **Jupyter Notebook** executable on **DesignSafe** is available at:  
   [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes).  
 - A walkthrough on executing this code within the **DesignSafe** environment can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
+
+## Access Method (Direct)
+- The processed data are available as parquet files by state. See ...
 
 ## Data Usage Form
 - To keep track of research activities related to this data, please **fill out the Google Form**:  
