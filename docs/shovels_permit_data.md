@@ -1,51 +1,62 @@
 # CHEER Project Shovels Permit Data
-Please make sure that, if you want to use this data, please make sure to fill at the Form at the end to ensure the whole team aligns with whatever research being done on this data and save time and rewsources by doing so.
+
+If you plan to use this data, please ensure you fill out the form at the end of this document. This helps the entire team stay aligned with ongoing research and optimizes time and resources.
 
 ## Contents
- - [Original Data](#original-data) 
- - [Data Processing](#data-processing)
- - [Feature Statistics](#feature-statistics)
- - [Access Method (Jupyter Notebook)](#access-method-(jupyter-notebook))
- - [Data Usage Form](#data-usage-form)
+- [Original Data](#original-data)
+- [Data Processing](#data-processing)
+- [Feature Statistics](#feature-statistics)
+- [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook)
+- [Data Usage Form](#data-usage-form)
 
 ## Original Data
-Dataset location: DesignSafe 
-- Shovel Permkit Data (Original): ([Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data))
+**Dataset location:** DesignSafe  
+- **Shovel Permit Data (Original):** [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data)
 
-# Data Processing
-This section describes, first, data cleaning and error correction inside the original data (#data-cleansing) and second, how the data is organized for an easier access.
-- **Data Cleaning:**
-  Data issues with the original database contains:
-   - **Swapped lattitude and longitude values**:
-   By knowing the range of lattitude and longitudes on the ESPG:4326 system, those columns are readily identified and corrections are made
-   - **Different Missing Values Format**:
-The missing values inisde the original data were noted using different notation; all are identified and turned into (numpy) missing value format for easier tracking.
+## Data Processing
+This section covers two main aspects:  
+1. **Data Cleaning and Error Correction** in the original dataset.  
+2. **Data Re-structuring** for easier access.
 
-- **Re-structuring Data**:
-The original data comes with no specific order, such as being state-wise ordered, etc. Since no mising values exist for the original data column "STATE", the cleansed original data is re-ordered in a state-wise manner
+### **Data Cleaning**
+The original dataset contains the following issues:
+
+- **Swapped latitude and longitude values:**  
+  Using the known range of latitude and longitude values in the **EPSG:4326** system, incorrect values were identified and corrected.
+
+- **Inconsistent missing value notation:**  
+  The original dataset used different formats to denote missing values. These have been standardized to the **NumPy missing value format** for consistency.
+
+### **Re-structuring Data**
+The dataset initially lacked a specific order (e.g., by state). Since the `"STATE"` column has no missing values, the cleaned dataset has been **re-ordered state-wise** for better accessibility.
 
 ## Feature Statistics
-To better understand and access features, we first have categorized features into into 7 distinct groups, and then various statistics are extracted from them to better guide users into what expectation they can have from the data. For a more detailed description of the above-mentioned notes, you can follow the [**Descriptive PowerPoint file.**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
+To enhance data usability, we categorized features into seven distinct groups and extracted various statistics to help users understand the dataset. For a more detailed explanation, refer to the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
-- **Feature Categorization**:
-Over 90 attributes exist in the original data, which are categorized by us into 7 groups, as follows:
-  - **Unusable** These columns either suffers from all missing values, or are hashed, or ciphered in anyways uncomprehencible by the users. They must shall be removed, and are thus.
-  - **ID columns** The identifiers assigned to each row of data, from which one does not contain any missing/duplicated values, and we thus have taken that as the main identifier as well.
-  - **Location** Thise group of features unvweil various location data for each data row, including but not limited to state, FIPS code, etc.
-  - **Property-related** These features disclose various structural-related features, such as the number of stories, unites, etc.
-  - **Owner-Applicant** Biographic data from the owener and applicant of properties.
-  - **Permit Details** Deatils of the permit data at different detailing level as well duration, fees, and other perimit-related information.
-  - **Binary Choices** These **Boolean** features allow for a quick filtering of the data, like whether the permit is Electronics-related or not.
-- **Missing Values Statistics**:
-The missing value statistics for all features can be found at [**Descriptive PowerPoint file.**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
-The statistics are given on an average for all states, but critical states, i.e., states which have more than 90% mising values for features are also included.
+### **Feature Categorization**
+The dataset contains over **90 attributes**, categorized as follows:
+
+- **Unusable:** Columns that are entirely missing, encrypted, or otherwise incomprehensible. These have been removed.  
+- **ID Columns:** Identifiers assigned to each row. One of these columns contains no missing or duplicate values and has been selected as the **primary identifier**.  
+- **Location Data:** Includes various geographical identifiers such as state, FIPS code, etc.  
+- **Property-Related Data:** Features describing structural attributes, such as the number of stories, units, etc.  
+- **Owner-Applicant Data:** Biographical details of property owners and applicants.  
+- **Permit Details:** Information about permits, including duration, fees, and permit type.  
+- **Binary Choices:** Boolean indicators for quick filtering (e.g., whether a permit is electronics-related).  
+
+### **Missing Values Statistics**
+The missing value statistics for all features can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).  
+Statistics are presented as an average for all states, but **critical states** (i.e., those with more than **90% missing values** for certain features) are also highlighted.
 
 ## Access Method (Jupyter Notebook)
-- Given the aboce details, a Jupyter notebook, executable on DesignSafe, is now available at [(Link)](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes).
-- The walkthrough on this code execution within the DesignSafe environment is available at [**Descriptive PowerPoint file.**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
+- A **Jupyter Notebook** executable on **DesignSafe** is available at:  
+  [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes).  
+- A walkthrough on executing this code within the **DesignSafe** environment can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
 ## Data Usage Form
-- The Google Sheet file at [link](https://docs.google.com/forms/d/e/1FAIpQLScd733Tc6RolmnzLT9DV03IZrJvQsyH5JtQTCejk6X1IvhP9Q/viewform?usp=dialog) helps to keep track of research endeavors on this data, so please kindly fill this form; thank you.
-- The recorded responses are saved at [link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670), which we encourage you check that out. Thank you.
- 
+- To keep track of research activities related to this data, please **fill out the Google Form**:  
+  [Form Link](https://docs.google.com/forms/d/e/1FAIpQLScd733Tc6RolmnzLT9DV03IZrJvQsyH5JtQTCejk6X1IvhP9Q/viewform?usp=dialog).  
+- Recorded responses are saved in the following Google Sheet:  
+  [Responses Link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670).  
 
+Thank you for your cooperation!
