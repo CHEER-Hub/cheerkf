@@ -4,7 +4,7 @@
 * [Managing Stuff](03-managing-stuff.md)
 * [Citations, Papers, and Presos](04-citations-papers-presentations.md)
 * Research Thrusts
-  * [Buildings Thrust]
+  * Buildings Thrust
     * [Shovels Permit Data](shovels_permit_data.md)
   * [Hazards Thrust](hazardsthrust.md)
 * [CHEER Using DesignSafe](05-CHEER_Using_DesignSafe.md)
