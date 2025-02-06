@@ -1,6 +1,6 @@
 # CHEER Project Shovels Permit Data
 
-If you plan to use this data, please ensure you fill out the form at the end of this document. This helps the entire team stay aligned with ongoing research and optimizes time and resources.
+If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes time and resources.
 
 ## Contents
 - [Original Data](#original-data)
@@ -11,14 +11,16 @@ If you plan to use this data, please ensure you fill out the form at the end of 
 
 ## Original Data
 **Dataset location:** DesignSafe  
-- **Shovel Permit Data (Original):** [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data)
+- **Shovel Permit Data (Original):** [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data) These are the 'original' raw data, please **do not edit**, change, or delete these files.
+- There are over 200 files with many attribute columns and ultimately tens of millions of data rows.
+- If you can not access any of the links that take you to DesignSafe Data Depot, check to make sure you have an account on DesignSafe and that you have been added to the project.
 
-## Data Processing
+## Raw Data Processing
 This section covers two main aspects:  
 1. **Data Cleaning and Error Correction** in the original dataset.  
 2. **Data Re-structuring** for easier access.
 
-### **Data Cleaning**
+### **Raw Data Cleaning**
 The original dataset contains the following issues:
 
 - **Swapped latitude and longitude values:**  
@@ -27,8 +29,8 @@ The original dataset contains the following issues:
 - **Inconsistent missing value notation:**  
   The original dataset used different formats to denote missing values. These have been standardized to the **NumPy missing value format** for consistency.
 
-### **Re-structuring Data**
-The dataset initially lacked a specific order (e.g., by state). Since the `"STATE"` column has no missing values, the cleaned dataset has been **re-ordered state-wise** for better accessibility.
+### **Raw Re-structuring Data**
+The dataset initially lacked a specific order (e.g., by state). Since the `"STATE"` column has no missing values, the cleaned dataset has been **grouped by state** for better accessibility.
 
 ## Feature Statistics
 To enhance data usability, we categorized features into seven distinct groups and extracted various statistics to help users understand the dataset. For a more detailed explanation, refer to the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
