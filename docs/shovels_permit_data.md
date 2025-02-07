@@ -56,7 +56,7 @@ Statistics are presented as an average for all states, but **critical states** (
 - A walkthrough on executing this code within the **DesignSafe** environment can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
 ## Access Method (Direct)
-- The processed data are available as parquet files by state. See ...
+- The processed data are available as parquet files by the state in DesignSafe, with and without the suffix "-C".  The suffix indicates whether the **Unusable** attributes are ommited or not. See [link.](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FStates)
 
 ## Data Usage Form
 - To keep track of research activities related to this data, please **fill out the Google Form**:  
