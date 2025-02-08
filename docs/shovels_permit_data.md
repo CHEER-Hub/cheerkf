@@ -4,10 +4,10 @@ If you plan to use this data, please ensure you fill out the [Data Usage Form](#
 
 ## Contents
 - [Original Data](#original-data)
-- [Data Processing](#data-processing)
+- [Data Processing](#raw-data-processing)
 - [Feature Statistics](#feature-statistics)
 - [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook)
-- [Data Usage Form](#data-usage-form)
+- [Data Usage Fom](#data-usage-form)
 
 ## Original Data
 **Dataset location:** DesignSafe  
@@ -57,11 +57,15 @@ Statistics are presented as an average for all states, but **critical states** (
 
 ## Access Method (Direct)
 - The processed data are available as parquet files by the state in DesignSafe, with and without the suffix "-C".  The suffix indicates whether the **Unusable** attributes are ommited or not. See [link.](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FStates)
+- The data format for stored files is .parquet, explicitly chosen for various reasons, such as reduced memory usage and ease of searching by the user's chosen region. However, the Jupyter notebook returns both .csv and .parquet files for convenience. Still, .parquet files are recommended for analyzing this type of data. You can find useful resources on Parquet files in general at [link](#https://parquet.apache.org/).
+- If you're interested in working with Parquet files in Python, Pandas and GeoPandas can be used to process .parquet files just like other formats, following the same syntax.
 
 ## Data Usage Form
 - To keep track of research activities related to this data, please **fill out the Google Form**:  
   [Form Link](https://docs.google.com/forms/d/e/1FAIpQLScd733Tc6RolmnzLT9DV03IZrJvQsyH5JtQTCejk6X1IvhP9Q/viewform?usp=dialog).  
 - Recorded responses are saved in the following Google Sheet:  
   [Responses Link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670).  
+
+
 
 Thank you for your cooperation!
