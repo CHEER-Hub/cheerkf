@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inventory-Loss Link documentation &mdash; Inventory-CHEER_Safe Link 0.1 documentation</title>
+  <title>&lt;no title&gt; &mdash; Inventory-CHEER_Safe Link 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -18,8 +18,7 @@
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Objective" href="Objective.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,7 +29,7 @@
 
           
           
-          <a href="#" class="icon icon-home">
+          <a href="index.html" class="icon icon-home">
             Inventory-CHEER_Safe Link
           </a>
 <div role="search">
@@ -73,17 +72,17 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Inventory-CHEER_Safe Link</a>
+          <a href="index.html">Inventory-CHEER_Safe Link</a>
       </nav>
 
       <div class="wy-nav-content">
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Inventory-Loss Link documentation</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">&lt;no title&gt;</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/ref.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -91,53 +90,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="inventory-loss-link-documentation">
-<h1>Inventory-Loss Link documentation<a class="headerlink" href="#inventory-loss-link-documentation" title="Link to this heading"></a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Objective</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Objective.html">Objective</a></li>
+  <dl class="py function" id="my-special-func">
+<dt class="sig sig-object py" id="Inv_Loss_Link.Inventory_Loss">
+<span class="sig-prename descclassname"><span class="pre">Inv_Loss_Link.</span></span><span class="sig-name descname"><span class="pre">Inventory_Loss</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cwd</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Download</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#Inv_Loss_Link.Inventory_Loss" title="Link to this definition"></a></dt>
+<dd><p>A class to compute loss based on a given building inventory and the loss configurations provided by the CHEER-Safe model. Various implementations are saved within this class upon invocation, as described below.</p>
+<p>Initialization of the <cite>Inventory_Loss</cite> object involves:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cwd</strong> (<em>str</em>) – User-defined directory to store outcomes. Defaults to ‘.’, which stores results in the directory where the code is executed.</p></li>
+<li><p><strong>Download</strong> (<em>bool</em>) – If set to <cite>True</cite>, downloads a sample dataset to run the loss model and perform integrity tests.</p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Inventory_Loss Link module</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Data_Fusion.html">1. Inventory-Loss-Link Class</a></li>
+</dd>
+</dl>
+<p>Several important instance variables are initialized:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self.mph_to_id</strong> (<em>dict</em>) – Maps wind speed (in mph) to corresponding IDs based on CHEER-Safe design choices. Details: (<a class="reference external" href="https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link">https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link</a>)</p></li>
+<li><p><strong>self.flood_depth_to_id</strong> (<em>dict</em>) – Maps flood depth (in inches) to corresponding IDs per CHEER-Safe design. Details: (<a class="reference external" href="https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link">https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link</a>)</p></li>
+<li><p><strong>self.damage_levels</strong> (<em>list</em><em>[</em><em>float</em><em>]</em>) – A list of 50 damage state ratios (from 0% to 140%) representing loss relative to the structure’s nominal value. Details: (<a class="reference external" href="https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link">https://drive.google.com/file/d/1-WWQ8dlrGdlFFntmMYnycoKeb2VsvSrk/view?usp=drive_link</a>)</p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Input Data Specifications</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Inputs.html">1. Input Data Details</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Module Details</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Details.html">1. Define_new_table Details</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Details1.html">2. Hazard_Inv_map Details</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Directory Guide</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Directory.html">1. Directory Structure</a></li>
-</ul>
-</div>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Output Loss Tensor</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Output_Descriptions.html">1. Output Tensor Object</a></li>
-</ul>
-</div>
-</section>
+</dd>
+</dl>
+</dd></dl>
+
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Objective.html" class="btn btn-neutral float-right" title="Objective" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 

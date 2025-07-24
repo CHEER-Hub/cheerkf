@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1. Output Tensor Object &mdash; Inventory-CHEER_Safe Link 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="1. Directory Structure" href="Directory.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Inventory-CHEER_Safe Link
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Objective</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Objective.html">Objective</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Inventory_Loss Link module</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Data_Fusion.html">1. Inventory-Loss-Link Class</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Input Data Specifications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Inputs.html">1. Input Data Details</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Module Details</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Details.html">1. Define_new_table Details</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Details1.html">2. Hazard_Inv_map Details</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Directory Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Directory.html">1. Directory Structure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Output Loss Tensor</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Output Tensor Object</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Inventory-CHEER_Safe Link</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">1. </span>Output Tensor Object</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Output_Descriptions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="output-tensor-object">
+<span id="output-tensor"></span><h1><span class="section-number">1. </span>Output Tensor Object<a class="headerlink" href="#output-tensor-object" title="Link to this heading"></a></h1>
+<p>As introduced in section <a class="reference internal" href="Data_Fusion.html#class-section"><span class="std std-ref">Inventory-Loss-Link Class</span></a>, the final output of the class is a Python pickle object. The naming convention, as described in <a class="reference internal" href="Directory.html#dir-section"><span class="std std-ref">Directory Structure</span></a>, is as follows:</p>
+<p><strong>I_(Inventory_Y)_H_(Hazard_X)_Z_(zone_z)_I_(interpolation mode).pkl</strong>
+This pickle object stores the loss estimates for:</p>
+<ol class="arabic simple">
+<li><p><strong>Inventory_Y</strong>: the inventory used,</p></li>
+<li><p><strong>Hazard_X</strong>: the hazard scenarios included,</p></li>
+<li><p><strong>zone_z</strong>: the zoning system applied (if any),</p></li>
+<li><p><strong>interpolation mode</strong>: the method of interpolation used (if any).</p></li>
+</ol>
+<p>For example, consider the file:</p>
+<p><cite>I_NC_Inventory_v1_AI_Imputed_H_TC_Wise_Z_leaphi_zones_20230920_I_linear.pkl</cite>.</p>
+<p>This pickle file contains multiple fields, as shown in the following image:</p>
+<a class="reference internal image-reference" href="_images/Tensor.png"><img alt="Binv framework" class="align-center" src="_images/Tensor.png" style="width: 1200px;" />
+</a>
+<p>—</p>
+<p><strong>1. info field</strong>
+Accessed using <cite>loss[‘info’]</cite>, this field outputs metadata and important details about the loss data. A sample snapshot is shown below:</p>
+<a class="reference internal image-reference" href="_images/Info.png"><img alt="Binv framework" class="align-center" src="_images/Info.png" style="width: 1200px;" />
+</a>
+<p>—</p>
+<p><strong>2. inventory field</strong>
+This contains the inventory used in the loss estimation, specifically the subset of structures within the hazard zone. All features of the inventory are included in this GeoPandas DataFrame.</p>
+<p>Of particular interest are the following columns which allows the user to filter the loss tensor:
+- <strong>Z</strong>: the assigned Z class,
+- <strong>M</strong>: the assigned M class,
+- <strong>val_struct_col</strong>: the value of each structure,
+- <strong>zone_id</strong>: the zone identifier.</p>
+<p>Regarding the zone system:</p>
+<p>The zone system, as outlined in <span class="xref std std-ref">Inventory-Loss</span> section, are defined by user and provided as a file to the loss class. So, for the example we have here,
+the loss is based on user-defined zone system of “leaphi_zones_20230920”, with the zone-id defined as <cite>“i_lh740”</cite> by the user. Each structure in the inventory is thus
+matched with the zone-ids, if any, otherwise set as -1.</p>
+<p><strong>Note:</strong> Later examples will demonstrate how to filter the tensor using this column.</p>
+<p><strong>Note:</strong> We chose this system to decouple zone from the loss tensor by including it inside the inventory data to save space.</p>
+<a class="reference internal image-reference" href="_images/Inventory.png"><img alt="Binv framework" class="align-center" src="_images/Inventory.png" style="width: 1200px;" />
+</a>
+<p>—</p>
+<p><strong>3. Hurricane field</strong>
+This field lists all hazard instances and their indices, which can be used to filter the loss tensor for a specific hazard scenario:</p>
+<a class="reference internal image-reference" href="_images/Hazard.png"><img alt="Binv framework" class="align-center" src="_images/Hazard.png" style="width: 250px;" />
+</a>
+<p>—</p>
+<p><strong>4. Z_C field</strong>
+As explained in section <span class="xref std std-ref">details</span>, each building has a distribution over <strong>C</strong> values rather than a single deterministic C. To capture this, the <cite>Z_C</cite> field is a matrix of shape <cite>[Z, C]</cite>, where each row gives the probability distribution of C for a given Z.</p>
+<p>For example, to access the probabilities for <strong>C = 1 to 10</strong> when <strong>Z = 3</strong>, use the following (note: Python indexing starts at 0):</p>
+<a class="reference internal image-reference" href="_images/Z_C.png"><img alt="Binv framework" class="align-center" src="_images/Z_C.png" style="width: 800px;" />
+</a>
+<p><strong>Note:</strong> Z and C classes start from 1 conceptually, but Python uses 0-based indexing.</p>
+<p>—</p>
+<p><strong>5. Loss_estimates field</strong>
+This is the main loss tensor. The field structure is shown below:</p>
+<a class="reference internal image-reference" href="_images/Loss_T.png"><img alt="Binv framework" class="align-center" src="_images/Loss_T.png" style="width: 800px;" />
+</a>
+<p>—</p>
+<p><strong>Examples</strong></p>
+<p><strong>EX1: Summing total wind loss (in $) for hazard scenarios 100–200 across the entire inventory</strong></p>
+<a class="reference internal image-reference" href="_images/EX1.png"><img alt="Binv framework" class="align-center" src="_images/EX1.png" style="width: 800px;" />
+</a>
+<p>Note: You can refer to the <cite>“Hurricane”</cite> field in the loss object for all hazard indices.</p>
+<p>—</p>
+<p><strong>EX2: Filtering the loss object by `zone_id = 100` and keep the total damage (in $) column</strong>
+This assumes a zoning system is present—i.e., the user selected a zoning system during the loss model run. See <a class="reference internal" href="Data_Fusion.html#class-section"><span class="std std-ref">Inventory-Loss-Link Class</span></a>.</p>
+<a class="reference internal image-reference" href="_images/EX2.png"><img alt="Binv framework" class="align-center" src="_images/EX2.png" style="width: 800px;" />
+</a>
+<p>We can see that only <strong>451 buildings</strong> fall within this zone (ID = 100 in the Leap-HI 740 zoning system), as shown in the <cite>info</cite> file above.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Directory.html" class="btn btn-neutral float-left" title="1. Directory Structure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Hesam.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
