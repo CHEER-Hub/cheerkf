@@ -8,6 +8,7 @@
     * [Shovels Permit Data](shovels_permit_data.md)
     * [Inventory_Loss Link](inventory_loss_link.md)
   * [Hazards Thrust](hazardsthrust.md)
+  * [Integration Thrust](integrationthrust.md)
 * [CHEER Using DesignSafe](05-CHEER_Using_DesignSafe.md)
   * [CHEER Hub DesignSafe Sign-Up](05a-CHEER_DesignSafe_SignUp.md)
   * [CHEER Hub DesignSafe Data Upload](05b-CHEER_DesignSafe_DataUpload.md)
