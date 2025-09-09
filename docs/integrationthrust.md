@@ -5,8 +5,8 @@ Prepared by Jingya Wang (wangjy@udel.edu)
 # Contents
 - [Overview of STARR](#overview-of-starr)
 - [STARR Model Versions](#starr-model-versions)
-  - [Quick Summary](#quick-summary)
-  - [Baseline (STARR V0)](#starr-v0-baseline)
+  - [Quick Summary](#starr-model-versions--quick-summary)
+  - [Baseline STARR V0](#baseline-starr-v0)
   - [STARR-DBI](#starr-dbi)
   - [STARR-GOV-V1](#starr-gov-v1)
 
