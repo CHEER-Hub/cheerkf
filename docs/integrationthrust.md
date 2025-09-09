@@ -85,8 +85,7 @@ STARR V0 serves as the **reference version** of the model. It demonstrates the i
 
 ### Citation
 If you use STARR V0, please cite:  
-Davidson, R., et al. (2025). *Stakeholder-based Tool for the Analysis of Regional Risk (STARR).* *Natural Hazards Review.*  
-(plus dataset DOI once available)
+Davidson, R., et al. (2025). *Stakeholder-based Tool for the Analysis of Regional Risk (STARR).* *Natural Hazards Review.*  https://doi.org/10.1061/NHREFO.NHENG-2321
 
 ### Requirements
 - MATLAB version R2020b or later (for STEER implementation)  
