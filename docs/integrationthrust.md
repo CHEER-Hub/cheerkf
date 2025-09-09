@@ -39,7 +39,8 @@ This page provides a quick overview; see the following sections for full details
 | Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
 |----------------|--------------------------------------------|-----------------------------------------------------|-----------|
 | **STARR V0 (Baseline)** | Original framework with static building inventory; hazard, loss, and stakeholder modules | Serves as the reference version; evaluates baseline government acquisition and retrofit policies | [MATLAB code](https://github.com/CHEER-Hub/STEER), [Python code](https://github.com/CHEER-Hub/STARR-V0), [Dataset PRJ-4392](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FIntegration%2FSTARR_V0) |
-| **STARR-DBI** | Adds **Dynamic Building Inventory (DBI)**; buildings/households evolve each year | Evaluates land use restrictions, acquisitions, and growth impacts on risk and equity | [Housing Inventory Projection PRJ-4651](https://doi.org/10.17603/ds2-tnqp-ag38), [Full framework PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68) |
+| **STARR-DBI** | Adds **Dynamic Building Inventory (DBI)**; buildings/households evolve each year | Evaluates land use restrictions, acquisitions, and growth impacts on risk and equity | [Code](https://github.com/CHEER-Hub/STARR_DBI)<img width="468" height="15" alt="image" src="https://github.com/user-attachments/assets/d300a6ad-7756-4e03-90cb-2e47f6b3636c" />
+)[Housing Inventory Projection PRJ-4651](https://doi.org/10.17603/ds2-tnqp-ag38), [Full framework PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68) |
 | **STARR-GOV v1** | Adds **five disaster funding designs** (varied by timing, scale, and allocation basis) | Tests how funding structures influence long-term losses, spending, and stakeholder outcomes | [Code](https://github.com/CHEER-Hub/STARR_gov_model_V1), [Dataset PRJ-6106](https://doi.org/10.17603/ds2-vxbh-cm52) |
 
 ---
@@ -119,8 +120,9 @@ STARR-DBI was developed to assess how **land use planning and acquisition polici
 - Provides insights into how new development interacts with mitigation policies, affecting risk and equity.  
 
 ### Resources
+- **Code (Python):** [STARR-DBI repository](https://github.com/CHEER-Hub/STARR_DBI)  
 - **Housing Inventory Projection Method:** [DesignSafe PRJ-4651](https://doi.org/10.17603/ds2-tnqp-ag38)  
-- **Full STARR-DBI Framework:** [DesignSafe PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68)  
+- **Full STARR-DBI Framework (inputs & outputs):** [DesignSafe PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68)  
 - **Publication:** Wang, J., Williams, C., Davidson, R., Nozick, L., & Millea, M. (n.d.). *Coupling Land Use Planning and Multi-Stakeholder Dynamics to Inform Disaster Risk Management: Who Pays for Risk and Who Gains from Intervention?* Under Review, *Earth’s Future*  
 
 ### Citation
