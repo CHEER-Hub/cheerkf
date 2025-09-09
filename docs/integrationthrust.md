@@ -77,6 +77,7 @@ Typical outputs include:
 - Government spending and policy effects  
 - Insurer premiums and profits  
 
+---
 V0 is the baseline for comparisons, ensuring that improvements or policy innovations can be clearly measured against a consistent starting point.
 
 
@@ -118,12 +119,13 @@ Wang, J., Williams, C., Davidson, R., Nozick, L., & Millea, M. (n.d.). *Coupling
   - Baseline strategy (blue, dashed)  
   - Low-restriction strategy (green, dash-dot)  
   - High-restriction strategy (red, solid)  
+<img width="251" height="188" alt="image" src="https://github.com/user-attachments/assets/c44b2e35-b25f-4170-ab23-dec2ecd28988" />
 
-![Figure 2](path/to/figure2.png)  
 
 - **Figure 7.** Change in outcomes from Year 1 to Year 20 across six strategies varying by land use policy and acquisition. Values include total, insured, and uninsured losses; hazard-specific losses by building type; annual insurer profits; and mean annual household expenditures.  
 
-![Figure 7](path/to/figure7.png)  
+<img width="468" height="353" alt="image" src="https://github.com/user-attachments/assets/1aec0eca-877c-44e0-abfc-b7c653d1e749" />
+
 
 ### Outputs
 Typical outputs include:  
