@@ -52,13 +52,13 @@ STARR V0 serves as the **reference version** of the model. It demonstrates the i
 ### Role in Development
 - Provides the **foundation** for later variants.  
 - **STARR-DBI** extends V0 by adding a dynamic building inventory.  
-- **STARR-GOV_V1** extends V0 by incorporating multiple funding design structures.
+- **STARR-GOV-V1** extends V0 by incorporating multiple funding design structures.
 - More in the future...
   
 ### Resources
 
 - **Code (MATLAB):** [STEER repository](https://github.com/CHEER-Hub/STEER)  
-- **Code (Python, well-commented):** [STARR-V0 repository](https://github.com/CHEER-Hub/STARR-V0)  
+- **Code (Python, commented):** [STARR-V0 repository](https://github.com/CHEER-Hub/STARR-V0)  
 - **Dataset:** [DesignSafe PRJ-4392](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FIntegration%2FSTARR_V0), with full dataset manual  
 
 ### Citation
@@ -78,7 +78,7 @@ Typical outputs include:
 - Insurer premiums and profits  
 
 ---
-Final mark: V0 is the baseline for comparisons, ensuring that improvements or policy innovations can be clearly measured against a consistent starting point.
+Final Mark: V0 is the baseline for comparisons, ensuring that improvements or policy innovations can be clearly measured against a consistent starting point.
 
 
 ---
@@ -164,12 +164,12 @@ STARR-GOV-V1 was developed to explore how different designs of **mitigation fund
 - Supports policy-oriented insights on how program design—not just funding levels—affects outcomes.  
 
 ### Resources
-- **Code (Python):** [STARR-GOV v1 repository](https://github.com/CHEER-Hub/STARR_gov_model_V1)  
+- **Code (Python):** [STARR-GOV-V1 repository](https://github.com/CHEER-Hub/STARR_gov_model_V1)  
 - **Datasets and Outputs:** [DesignSafe PRJ-6106](https://doi.org/10.17603/ds2-vxbh-cm52)  
 - **Publication:** Wang, J., Siders, A.R., Davidson, R., & Nozick, L. (n.d.). *Stakeholder Dynamics in Disaster Mitigation Funding: The Roles of Timing, Spatial Scale and Allocation Basis in Policy Design.* Under Review, *Environmental Science & Policy*  
 
 ### Citation
-If you use STARR-GOV v1, please cite:  
+If you use STARR-GOV-V1, please cite:  
 Wang, J., Siders, A.R., Davidson, R., & Nozick, L. (n.d.). *Stakeholder Dynamics in Disaster Mitigation Funding: The Roles of Timing, Spatial Scale and Allocation Basis in Policy Design.* Under Review, *Environmental Science & Policy*.  
 
 ### Requirements
