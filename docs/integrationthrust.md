@@ -122,7 +122,7 @@ Wang, J., Williams, C., Davidson, R., Nozick, L., & Millea, M. (n.d.). *Coupling
 <img width="251" height="188" alt="image" src="https://github.com/user-attachments/assets/c44b2e35-b25f-4170-ab23-dec2ecd28988" />
 
 
-- **Figure 7.** Change in outcomes from Year 1 to Year 20 across six strategies varying by land use policy and acquisition. Values include total, insured, and uninsured losses; hazard-specific losses by building type; annual insurer profits; and mean annual household expenditures.  
+- **Figure 3.** Change in outcomes from Year 1 to Year 20 across six strategies varying by land use policy and acquisition. Values include total, insured, and uninsured losses; hazard-specific losses by building type; annual insurer profits; and mean annual household expenditures.  
 
 <img width="468" height="353" alt="image" src="https://github.com/user-attachments/assets/1aec0eca-877c-44e0-abfc-b7c653d1e749" />
 
@@ -177,7 +177,7 @@ Wang, J., Siders, A.R., Davidson, R., & Nozick, L. (n.d.). *Stakeholder Dynamics
 - Input data for funding design experiments included in DesignSafe dataset  
 
 ### Example Figure
-- **Figure 2.** Expected annual loss (EAL) over a 20-year period under five funding designs: Fixed efficient, Fixed uniform, Fixed population-based, Event-triggered efficient, and Event-triggered damage-based. The figure shows how EAL evolves as acquisitions and retrofits accumulate under each policy design.  
+- **Figure 4.** Expected annual loss (EAL) over a 20-year period under five funding designs: Fixed efficient, Fixed uniform, Fixed population-based, Event-triggered efficient, and Event-triggered damage-based. The figure shows how EAL evolves as acquisitions and retrofits accumulate under each policy design.  
 
 <img width="428" height="248" alt="image" src="https://github.com/user-attachments/assets/3bb499e5-eafc-4ecc-809f-227ca3b1482f" />
 
@@ -191,12 +191,12 @@ Typical outputs include:
 
 ---
 
-STARR-GOV v1 demonstrates how **policy design features—timing, scale, and allocation basis—profoundly influence mitigation outcomes**, providing evidence for designing disaster funding programs that are both effective and equitable.
+Final Mark: STARR-GOV-V1 demonstrates how **policy design features—timing, scale, and allocation basis—profoundly influence mitigation outcomes**, providing evidence for designing disaster funding programs that are both effective and equitable.
 
 
 ---
 
 ## Notes
-- We will use consistent naming going forward: **STARR V0**, **STARR-DBI**, **STARR-GOV v1**  
+- We will use consistent naming going forward: **STARR V0**, **STARR-DBI**, **STARR-GOV-V1**  
 - Links above should point to the correct GitHub tags/branches  
 - For now, this serves as a quick reference outline
