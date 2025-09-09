@@ -57,7 +57,7 @@ This page provides a quick overview; see the following sections for full details
 
 ---
 
-## Baseline (STARR V0)
+## STARR V0 (Baseline)
 
 The **Baseline STARR model (V0)** is the original implementation of the Stakeholder-based Tool for the Analysis of Regional Risk. It establishes the foundational structure of the framework, bringing together the hazard, building inventory, damage and loss, and stakeholder modules into a unified simulation.  
 
