@@ -3,8 +3,12 @@
 Prepared by Jingya Wang (wangjy@udel.edu)
 
 # Contents
- - [Overview of STARR](#STARR)
- - [STARR Model Versions](#versions)
+- [Overview of STARR](#overview-of-starr)
+- [STARR Model Versions](#starr-model-versions)
+  - [Quick Summary](#starr-model-versions--quick-summary)
+  - [Baseline (STARR V0)](#starr-v0-baseline)
+  - [STARR-DBI](#starr-dbi)
+  - [STARR-GOV v1](#starr-gov-v1)
 
 # Overview of STARR
 
@@ -72,7 +76,7 @@ STARR V0 serves as the **reference version** of the model. It demonstrates the i
 - **STARR-DBI** extends V0 by adding a dynamic building inventory.  
 - **STARR-GOV-V1** extends V0 by incorporating multiple funding design structures.
 - More in the future...
-  
+
 ### Resources
 
 - **Code (MATLAB):** [STEER repository](https://github.com/CHEER-Hub/STEER)  
