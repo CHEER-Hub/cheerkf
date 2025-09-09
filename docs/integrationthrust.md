@@ -1,7 +1,7 @@
 # Integration Thrust
 
 # Contents
- - [Overview of STARR]
+ - [Overview of STARR](#STARR)
  - [STARR Model Versions](#versions)
 
 # Overview of STARR
@@ -16,7 +16,8 @@ Additional detail on STARR and its applications can be found in Kesete et al. (2
 
 ---
 
-![Figure 1. STARR computational framework, modules with inputs and outputs between them.](path/to/figure1.png)  
+<img width="432" height="258" alt="image" src="https://github.com/user-attachments/assets/dc21d915-c984-412c-827a-20283166d4a0" />
+
 *Source: Davidson et al. (2025)*
 
 ---
