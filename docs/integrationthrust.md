@@ -36,7 +36,6 @@ This document provides a simple overview of the STARR model versions and where t
 ---
 
 ## Baseline (STARR V0)
-- # STARR V0 (Baseline)
 
 The **Baseline STARR model (V0)** is the original implementation of the Stakeholder-based Tool for the Analysis of Regional Risk. It establishes the foundational structure of the framework, bringing together the hazard, building inventory, damage and loss, and stakeholder modules into a unified simulation.  
 
@@ -53,9 +52,10 @@ STARR V0 serves as the **reference version** of the model. It demonstrates the i
 ### Role in Development
 - Provides the **foundation** for later variants.  
 - **STARR-DBI** extends V0 by adding a dynamic building inventory.  
-- **STARR-GOV v1** extends V0 by incorporating multiple funding design structures.
-
-  ### Resources
+- **STARR-GOV_V1** extends V0 by incorporating multiple funding design structures.
+- More in the future...
+  
+### Resources
 
 - **Code (MATLAB):** [STEER repository](https://github.com/CHEER-Hub/STEER)  
 - **Code (Python, well-commented):** [STARR-V0 repository](https://github.com/CHEER-Hub/STARR-V0)  
@@ -83,9 +83,59 @@ V0 is the baseline for comparisons, ensuring that improvements or policy innovat
 ---
 
 ## STARR-DBI
-- Extension of STARR with **Dynamic Building Inventory**  
-- Captures growth and change in building stock over time  
-- **Code link:**   
+
+The **STARR-DBI** model extends the Baseline STARR (V0) by incorporating a **Dynamic Building Inventory (DBI)**. This version accounts for growth and change in the building stock over time, enabling a more realistic representation of long-term hurricane risk and policy outcomes.  
+
+### Key Features
+- **Dynamic Building Inventory:** Building counts and household distribution evolve each year, reflecting new construction, acquisitions, and growth patterns.  
+- **Land Use Policies:** Implements policy rules that restrict or allow new construction in flood-prone zones based on expected flood depth.  
+- **Integrated Risk Assessment:** Losses are separated by existing versus new buildings, showing how land use and acquisition policies affect risk.  
+- **Multi-Stakeholder Outcomes:** Captures government spending, insurer profits, and household expenditures as exposure changes over time.  
+
+### Purpose
+STARR-DBI was developed to assess how **land use planning and acquisition policies** influence disaster losses, government spending, and household outcomes over time. It captures the dynamic interplay between building growth, policy interventions, and stakeholder decisions in hazard-prone regions.  
+
+### Role in Development
+- Builds directly on **STARR V0** by adding a dynamic building–household inventory.  
+- Enables evaluation of policies that restrict new development or combine restrictions with acquisitions.  
+- Provides insights into how new development interacts with mitigation policies, affecting risk and equity.  
+
+### Resources
+- **Housing Inventory Projection Method:** [DesignSafe PRJ-4651](https://doi.org/10.17603/ds2-tnqp-ag38)  
+- **Full STARR-DBI Framework:** [DesignSafe PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68)  
+- **Publication:** Wang, J., Williams, C., Davidson, R., Nozick, L., & Millea, M. (n.d.). *Coupling Land Use Planning and Multi-Stakeholder Dynamics to Inform Disaster Risk Management: Who Pays for Risk and Who Gains from Intervention?* Under Review, *Earth’s Future*  
+
+### Citation
+If you use STARR-DBI, please cite:  
+Wang, J., Williams, C., Davidson, R., Nozick, L., & Millea, M. (n.d.). *Coupling Land Use Planning and Multi-Stakeholder Dynamics to Inform Disaster Risk Management: Who Pays for Risk and Who Gains from Intervention?* Under Review, *Earth’s Future*.  
+
+### Requirements
+- Python 3.x with standard scientific libraries (numpy, pandas, matplotlib)  
+- Additional input datasets for land use restriction factors and housing projections  
+
+### Example Figures
+- **Figure 2.** Capacity Reduction Factor vs. Annual Expected Flood Depth:  
+  - Baseline strategy (blue, dashed)  
+  - Low-restriction strategy (green, dash-dot)  
+  - High-restriction strategy (red, solid)  
+
+![Figure 2](path/to/figure2.png)  
+
+- **Figure 7.** Change in outcomes from Year 1 to Year 20 across six strategies varying by land use policy and acquisition. Values include total, insured, and uninsured losses; hazard-specific losses by building type; annual insurer profits; and mean annual household expenditures.  
+
+![Figure 7](path/to/figure7.png)  
+
+### Outputs
+Typical outputs include:  
+- Losses by year, separated into **existing vs. new buildings** and by hazard type (wind/flood)  
+- Effects of acquisition and land use policies on total, insured, and uninsured losses  
+- Annual insurer profits and insolvency risk  
+- Mean household expenditures across income and risk categories  
+
+---
+
+STARR-DBI highlights how land use restrictions and acquisition programs interact with long-term growth, shaping who bears disaster costs and who benefits from intervention.
+
 
 ---
 
