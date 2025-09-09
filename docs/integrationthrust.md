@@ -78,7 +78,7 @@ Typical outputs include:
 - Insurer premiums and profits  
 
 ---
-V0 is the baseline for comparisons, ensuring that improvements or policy innovations can be clearly measured against a consistent starting point.
+Final mark: V0 is the baseline for comparisons, ensuring that improvements or policy innovations can be clearly measured against a consistent starting point.
 
 
 ---
@@ -136,15 +136,63 @@ Typical outputs include:
 
 ---
 
-STARR-DBI highlights how land use restrictions and acquisition programs interact with long-term growth, shaping who bears disaster costs and who benefits from intervention.
+Final Mark: STARR-DBI highlights how land use restrictions and acquisition programs interact with long-term growth, shaping who bears disaster costs and who benefits from intervention.
 
 
 ---
 
-## STARR-GOV v1
-- Extension of STARR with **five funding designs**  
-- Vary by timing, spatial scale, and allocation basis  
-- **Code link:**  
+## STARR-GOV-V1
+
+The **STARR-GOV-V1** model extends the Baseline STARR (V0) by incorporating **five disaster mitigation funding designs**. This version evaluates how the structure of funding—its timing, spatial scale, and allocation basis—shapes long-term outcomes for governments, insurers, and households under repeated hurricane impacts.  
+
+### Key Features
+- **Five Funding Designs:**  
+  1. **Fixed efficient** – Consistent annual funding; state allocates directly to census tracts with the greatest risk reduction efficiency.  
+  2. **Fixed uniform** – Consistent annual funding; state allocates equally to counties, which then allocate to census tracts for efficiency.  
+  3. **Fixed population-based** – Consistent annual funding; state allocates to counties based on population, then counties allocate to census tracts for efficiency.  
+  4. **Event-triggered efficient** – Post-disaster funding (20% of prior-year damages); state allocates directly to census tracts with greatest efficiency.  
+  5. **Event-triggered damage-based** – Post-disaster funding; state allocates to counties based on county-level damage, counties then allocate to census tracts for efficiency.  
+- **Policy Design Dimensions:** Vary by timing (consistent vs. triggered), spatial scale (state vs. county), and allocation basis (risk reduction efficiency, damage, or population).  
+- **Multi-Stakeholder Outcomes:** Tracks long-term losses, government spending, insurer profits, and household expenditures.  
+
+### Purpose
+STARR-GOV-V1 was developed to explore how different designs of **mitigation funding programs** influence both the scale of risk reduction and the distribution of costs and benefits. It highlights trade-offs between efficiency, equity, and timing of investment.  
+
+### Role in Development
+- Builds directly on **STARR V0**, focusing on **funding structure** rather than land use or inventory dynamics.  
+- Provides the computational basis for comparative policy evaluation across multiple funding strategies.  
+- Supports policy-oriented insights on how program design—not just funding levels—affects outcomes.  
+
+### Resources
+- **Code (Python):** [STARR-GOV v1 repository](https://github.com/CHEER-Hub/STARR_gov_model_V1)  
+- **Datasets and Outputs:** [DesignSafe PRJ-6106](https://doi.org/10.17603/ds2-vxbh-cm52)  
+- **Publication:** Wang, J., Siders, A.R., Davidson, R., & Nozick, L. (n.d.). *Stakeholder Dynamics in Disaster Mitigation Funding: The Roles of Timing, Spatial Scale and Allocation Basis in Policy Design.* Under Review, *Environmental Science & Policy*  
+
+### Citation
+If you use STARR-GOV v1, please cite:  
+Wang, J., Siders, A.R., Davidson, R., & Nozick, L. (n.d.). *Stakeholder Dynamics in Disaster Mitigation Funding: The Roles of Timing, Spatial Scale and Allocation Basis in Policy Design.* Under Review, *Environmental Science & Policy*.  
+
+### Requirements
+- Python 3.x with standard scientific libraries (numpy, pandas, matplotlib)  
+- Input data for funding design experiments included in DesignSafe dataset  
+
+### Example Figure
+- **Figure 2.** Expected annual loss (EAL) over a 20-year period under five funding designs: Fixed efficient, Fixed uniform, Fixed population-based, Event-triggered efficient, and Event-triggered damage-based. The figure shows how EAL evolves as acquisitions and retrofits accumulate under each policy design.  
+
+<img width="428" height="248" alt="image" src="https://github.com/user-attachments/assets/3bb499e5-eafc-4ecc-809f-227ca3b1482f" />
+
+
+### Outputs
+Typical outputs include:  
+- Expected annual losses (EAL) over time under different funding designs  
+- Breakdown of total, insured, and uninsured losses  
+- Government spending on acquisitions and retrofits  
+- Annual insurer profits and household expenditures  
+
+---
+
+STARR-GOV v1 demonstrates how **policy design features—timing, scale, and allocation basis—profoundly influence mitigation outcomes**, providing evidence for designing disaster funding programs that are both effective and equitable.
+
 
 ---
 
