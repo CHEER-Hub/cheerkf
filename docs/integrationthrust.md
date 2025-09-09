@@ -31,7 +31,24 @@ Rather than prescribing an optimized solution for all, STARR recognizes that ins
 The context modules—including hazard, building inventory, damage and loss, and regional economy—are similar to existing regional loss-estimation models such as **HAZUS**, **IN-CORE** (Van de Lindt et al., 2023), the **FPHLM** (Gurley et al., 2005; Hamid et al., 2011), and **R2D** (Deierlein et al., 2020; McKenna et al., 2024). However, they are specifically designed to interact with the decision modules, enabling dynamic assessment of risk and policy effectiveness.
 # STARR Model Versions
 
-This document provides a simple overview of the STARR model versions and where to find them.  
+## Quick Summary
+
+The Stakeholder-based Tool for the Analysis of Regional Risk (STARR) has been extended into several versions.  
+This page provides a quick overview; see the following sections for full details.
+
+| Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
+|----------------|--------------------------------------------|-----------------------------------------------------|-----------|
+| **STARR V0 (Baseline)** | Original framework with static building inventory; hazard, loss, and stakeholder modules | Serves as the reference version; evaluates baseline government acquisition and retrofit policies | [MATLAB code](https://github.com/CHEER-Hub/STEER), [Python code](https://github.com/CHEER-Hub/STARR-V0), [Dataset PRJ-4392](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FIntegration%2FSTARR_V0) |
+| **STARR-DBI** | Adds **Dynamic Building Inventory (DBI)**; buildings/households evolve each year | Evaluates land use restrictions, acquisitions, and growth impacts on risk and equity | [Housing Inventory Projection PRJ-4651](https://doi.org/10.17603/ds2-tnqp-ag38), [Full framework PRJ-5985](https://doi.org/10.17603/ds2-n11h-fr68) |
+| **STARR-GOV v1** | Adds **five disaster funding designs** (varied by timing, scale, and allocation basis) | Tests how funding structures influence long-term losses, spending, and stakeholder outcomes | [Code](https://github.com/CHEER-Hub/STARR_gov_model_V1), [Dataset PRJ-6106](https://doi.org/10.17603/ds2-vxbh-cm52) |
+
+---
+
+**Tip:**  
+- Use **V0** as the baseline reference.  
+- Use **DBI** to study growth and land use policies.  
+- Use **GOV v1** to study mitigation funding program designs.  
+
 
 ---
 
