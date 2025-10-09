@@ -83,11 +83,12 @@ Statistics are presented as an average for all states, but **critical states** (
 
 ## Version Control
 
-The Table below keeps that track of pre-processed Shovel Permit Data versions.
+The table below tracks the versions of the pre-processed Shovel Permit Data.
 
 | Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
 |----------------|--------------------------------------------|-----------------------------------------------------|-----------|
-| **V0 (Final)** | Nation-wide (US) Permit records, including various features explained in (#feature-statistics)  | Organizing the data State-wise, removing erroneous features, correct geo-locations, etc. | [Data](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes) |
+| **V0 (Final)** | Nationwide (U.S.) permit records, including various features explained in [Feature Statistics](#feature-statistics) | Organizing the data by state, removing erroneous features, and correcting geo-locations. | [Data](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes) |
+
 
 
 ---
