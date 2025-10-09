@@ -2,7 +2,7 @@
 
 ***
 
-Prepared by: Hesam Soleimnai
+Prepared by: Hesam Soleimani (soleimanisam92@g.ucla.edu)
 
 Updated by: Hesamm Soleimnai
 
