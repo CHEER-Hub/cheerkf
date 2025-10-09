@@ -20,10 +20,10 @@ The objective of **FORTUNA** (Framework for LaRge-Scale Infrastructure InvenTory
 
 The FORTUNA framework is structured as illustrated in the following image.
 
-<p align="center">
-<img align="center" src="_media/FORTUNA.png" width="600px" alt="A screenshot of the terminal interface after logging into Frontera.">
-<figcaption>**Figure 1.**FORTUNA Overview.</figcaption>
+<figure>
+  <img src="_media/FORTUNA.png" alt="Example figure" width="600">
+  <figcaption>**Figure 1.** Caption describing the example figure.</figcaption>
+</figure>
 
-</p>  
 
 ---
