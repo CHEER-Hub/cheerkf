@@ -7,6 +7,7 @@
   * Buildings Thrust
     * [Shovels Permit Data](shovels_permit_data.md)
     * [Building Inventory Generator](fortuna.md)
+    * [Developed Deep Models](deep_m.md)
     * [Inventory_Loss Link](inventory_loss_link.md)
   * [Hazards Thrust](hazardsthrust.md)
   * [Integration Thrust](integrationthrust.md)
