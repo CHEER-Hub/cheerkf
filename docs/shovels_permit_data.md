@@ -13,14 +13,14 @@ Last Update: January 08, 2025
 
 ***
 
-If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes time and resources. Thanks!
+If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes the use of time and resources. Thanks!
 
 ## Contents
 - [Original Data](#original-data)
 - [Data Processing](#raw-data-processing)
 - [Feature Statistics](#feature-statistics)
 - [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook)
-- [Data Usage Fom](#data-usage-form)
+- [Data Usage Form](#data-usage-form)
 - [Version Control](#version_c)
 
 ## Original Data
@@ -70,7 +70,7 @@ Statistics are presented as an average for all states, but **critical states** (
 - A walkthrough on executing this code within the **DesignSafe** environment can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
 ## Access Method (Direct)
-- The processed data are available as parquet files by the state in DesignSafe, with and without the suffix "-C".  The suffix indicates whether the **Unusable** attributes are ommited or not. See [link.](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FStates)
+- The processed data are available as parquet files by the state in DesignSafe, with and without the suffix "-C".  The suffix indicates whether the **Unusable** attributes are omitted or not. See [link.](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FStates)
 - The data format for stored files is .parquet, explicitly chosen for various reasons, such as reduced memory usage and ease of searching by the user's chosen region. However, the Jupyter notebook returns both .csv and .parquet files for convenience. Still, .parquet files are recommended for analyzing this type of data. You can find useful resources on Parquet files in general at [link](https://parquet.apache.org/).
 - If you're interested in working with Parquet files in Python, Pandas and GeoPandas can be used to process .parquet files just like other formats, following the same syntax.
 
