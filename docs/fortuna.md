@@ -33,5 +33,5 @@ The table below tracks the FORTUNA versions.
 
 | Version        | Main Feature(s)                           | Key Purpose                                         | Upgrades| Resources |
 |----------------|--------------------------------------------|-----------------------------------------------------|-----------|-----------|
-| **FORTUNA V0** | Performs Data Fusion, only | Performs Data Fusion Across [FEMA](https://fema.maps.arcgis.com/home/item.html?id=0ec8512ad21e4bb987d7e848d14e7e24&sublayer=0), [NSI](https://www.hec.usace.army.mil/confluence/nsi/), and [Microsoft US Building](https://github.com/microsoft/USBuildingFootprints) databases | [Python code](https://github.com/CHEER-Hub/Fortuna) · [Documentation](https://hesam-92-19.github.io/Some_Documentations) ||
+| **FORTUNA V0** | Performs Data Fusion, only | Performs Data Fusion Across [FEMA](https://fema.maps.arcgis.com/home/item.html?id=0ec8512ad21e4bb987d7e848d14e7e24&sublayer=0), [NSI](https://www.hec.usace.army.mil/confluence/nsi/), and [Microsoft US Building](https://github.com/microsoft/USBuildingFootprints) databases | - | [Python code](https://github.com/CHEER-Hub/Fortuna) · [Documentation](https://hesam-92-19.github.io/Some_Documentations) |
 ---
