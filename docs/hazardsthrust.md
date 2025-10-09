@@ -20,9 +20,9 @@ General Information:
  - P-Cliper
  - CREST
 
-## Version 1.0 Model configuration:
+## Hazard Models configuration:
 North Carolina
- - ADCIRC:
+- ADCIRC:
    - Grid: nc_inundation_9.99
    - Resolution: variable, ~200-300 m coastal NC
    - Wind model: internal GAHM
@@ -33,7 +33,25 @@ North Carolina
 
 See [below](#prior-version-notes) for previous version details.
 
-# Description Version 1.0 Dataset
+# Description Version 1.2 Dataset
+Posting date: 9 Oct 2025
+
+This version of the NC Present Climate hazards dataset is primarily the result of switching from the STORM track dataset to the TCWiSE track generator (version 1.1) and using a faster decay rate of 0.044 [1/hr] (this version).  
+
+TCWiSE was used to simulate 1000 years of synthetic hurricane tracks using observed hurricanes from 1980-2023 as contained in the IBTrACS dataset, monthly mean SST fields from NOAA, and a "landfall" decay rate of 0.044 1/hr.  The resulting genesis location spatial density is shown in this figure: 
+
+<img width="501" height="322" alt="Screenshot 2025-10-09 at 1 41 08 PM" src="https://github.com/user-attachments/assets/eb5378b8-79e7-441c-abc2-ceb5af0aef94" />
+
+
+
+
+# Prior Version Notes 
+## Version 1.1:
+
+Switched from STORM to TCWiSE, decay rate of 0.0155 [1/hr], the default.
+
+## Version 1.0: 
+ 
 Posting date: 5 Jun 2024
 
 Spatial Resolution: 250 m (on the CREST model computational grid)
@@ -109,8 +127,8 @@ Bloemendaal, Nadia; de Moel, H. (Hans); Martinez, Andrew B.; Muis, S. (Sanne); H
  - https://doi.org/10.4121/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d
  - https://data.4tu.nl/articles/STORM_IBTrACS_present_climate_synthetic_tropical_cyclone_tracks/12706085?file=24876980
 
-# Prior Version Notes 
-V0: 
+
+## V2: 
 
 # General computational / processing steps
 For each track in {STORM dataset for NC, for the present climate}:
