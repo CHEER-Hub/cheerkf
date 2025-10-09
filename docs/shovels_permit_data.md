@@ -83,7 +83,7 @@ Statistics are presented as an average for all states, but **critical states** (
 
 ## Version Control
 
-The table below tracks the versions of the pre-processed Shovel Permit Data.
+The table below tracks the versions of the pre-processed Shovel Permit data.
 
 | Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
 |----------------|--------------------------------------------|-----------------------------------------------------|-----------|
