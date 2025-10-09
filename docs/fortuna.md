@@ -11,7 +11,7 @@ Last Update: October 1, 2025
 - [Overview](#overview)
 - [Data Fusion](#d-fusion)
 - [Imputation](#imputation)
-- [Feature ENhancement](#feature_enhance)
+- [Feature Enhancement](#feature_enhance)
 - [Data: Inventories](#data)
 
 # Overview of STARR
@@ -22,6 +22,7 @@ The FORTUNA framework is structured as illustrated in the following image.
 
 <p align="center">
 <img align="center" src="_media/FORTUNA.png" width="600px" alt="A screenshot of the terminal interface after logging into Frontera.">
+*FORTUNA Overview.*
 </p>  
 
 ---
