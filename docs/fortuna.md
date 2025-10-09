@@ -4,7 +4,7 @@ Prepared by Hesam Soleimani (soleimanisam92@g.ucla.edu)
 
 Updated by: Hesam Soleimani
 
-Satatus: Functioning with ungoing updates planned
+Status: Functioning with ongoing updates planned
 
 Last Update: October 1, 2025
 
