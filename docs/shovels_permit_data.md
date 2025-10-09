@@ -87,7 +87,7 @@ The Table below keeps that track of pre-processed Shovel Permit Data versions.
 
 | Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
 |----------------|--------------------------------------------|-----------------------------------------------------|-----------|
-| **V0** | Nation-wide (US) Permit records, including various features explained in (#feature-statistics)  | Organizing the data State-wise, removing erroneous features, correct geo-locations, etc. | [Data](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes) |
+| **V0 (Final)** | Nation-wide (US) Permit records, including various features explained in (#feature-statistics)  | Organizing the data State-wise, removing erroneous features, correct geo-locations, etc. | [Data](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes) |
 
 
 ---
