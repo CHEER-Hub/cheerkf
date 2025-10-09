@@ -16,7 +16,7 @@ Last Update: October 1, 2025
 - [Feature Enhancement](#feature_enhance)
 - [Version Control](#version-c)
 
-# Overview of STARR
+# Overview of FORTUNA
 
 The objective of **FORTUNA** (Framework for LaRge-Scale Infrastructure InvenTory Generation for Urban Natural Hazard Analysis), available at https://github.com/CHEER-Hub/Fortuna is to automate the process of building inventory generation for large-scale hazard assessment and simulation studies.
 
