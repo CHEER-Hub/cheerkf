@@ -1,4 +1,4 @@
-# Building Inventory Generator: FORTUNA
+# Developed Deep Models to Support Inventory Generation
 
 Prepared by Hesam Soleimani (soleimanisam92@g.ucla.edu)
 
