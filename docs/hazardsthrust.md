@@ -40,8 +40,27 @@ This version of the NC Present Climate hazards dataset is primarily the result o
 
 TCWiSE was used to simulate 1000 years of synthetic hurricane tracks using observed hurricanes from 1980-2023 as contained in the IBTrACS dataset, monthly mean SST fields from NOAA, and a "landfall" decay rate of 0.044 1/hr.  The resulting genesis location spatial density is shown in this figure: 
 
-<img width="501" height="322" alt="Screenshot 2025-10-09 at 1 41 08 PM" src="https://github.com/user-attachments/assets/eb5378b8-79e7-441c-abc2-ceb5af0aef94" />
+<img width="400" height="300" alt="Screenshot 2025-10-09 at 1 41 08 PM" src="https://github.com/user-attachments/assets/eb5378b8-79e7-441c-abc2-ceb5af0aef94" />
 
+The 1000-yr simulation generated 11736 events with the following intensity counts. 
+
+|"Intensity"|Number|
+|-----------|------|
+|Tropical Storm| 6985|
+|Category 1| 2373|
+|Category 2| 906|
+|Category 3| 673|
+|Category 4| 491|
+|Category 5| 231|
+|Total| 11736|
+
+The full track set is shown in this figure: 
+
+<img width="400" height="300" alt="Screenshot 2025-10-09 at 1 39 26 PM" src="https://github.com/user-attachments/assets/5aed0b96-ca4d-4b00-97b6-0531d913068c" />
+
+Each track was used in a coarse-grid ADCIRC simulation to compute storm surge impacts in the NC and TX areas.  These water levels were used to select storms that have some level of impact in the two regions, thus reducing the number of events to compute at high resolution with the full hazard model suite.  The storms impacting NC are shown in this figure, using "accumulated cyclone energy" computed for each track:
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/ef03ef99-07dc-43c9-b42a-cee98c66a1ef" />
 
 
 
