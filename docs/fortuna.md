@@ -22,8 +22,7 @@ The FORTUNA framework is structured as illustrated in the following image.
 
 <p align="center">
 <img align="center" src="_media/FORTUNA.png" width="600px" alt="A screenshot of the terminal interface after logging into Frontera.">
-  
-*FORTUNA Overview.*
+<figcaption>**Figure 1.**FORTUNA Overview.</figcaption>
 
 </p>  
 
