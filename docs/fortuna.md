@@ -14,7 +14,6 @@ Last Update: October 1, 2025
 - [Data Fusion](#d-fusion)
 - [Imputation](#imputation)
 - [Feature Enhancement](#feature_enhance)
-- [Data: Inventories](#data)
 - [Version Control](#version-c)
 
 # Overview of STARR
