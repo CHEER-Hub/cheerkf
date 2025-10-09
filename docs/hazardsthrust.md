@@ -36,6 +36,8 @@ See [below](#prior-version-notes) for previous version details.
 # Description Version 1.2 Dataset
 Posting date: 9 Oct 2025
 
+Dataset location: DesignSafe  [here]() 
+
 This version of the NC Present Climate hazards dataset is primarily the result of switching from the STORM track dataset to the TCWiSE track generator (version 1.1) and using a faster decay rate of 0.044 [1/hr] (this version).  
 
 TCWiSE was used to simulate 1000 years of synthetic hurricane tracks using observed hurricanes from 1980-2023 as contained in the IBTrACS dataset, monthly mean SST fields from NOAA, and a "landfall" decay rate of 0.044 1/hr.  The resulting genesis location spatial density is shown in this figure: 
@@ -61,7 +63,6 @@ The full track set is shown in this figure:
 Each track was used in a coarse-grid ADCIRC simulation to compute storm surge impacts in the NC and TX areas.  These water levels were used to select storms that have some level of impact in the two regions, thus reducing the number of events to compute at high resolution with the full hazard model suite.  The storms impacting NC are shown in this figure, using "accumulated cyclone energy" computed for each track:
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/ef03ef99-07dc-43c9-b42a-cee98c66a1ef" />
-
 
 
 # Prior Version Notes 
