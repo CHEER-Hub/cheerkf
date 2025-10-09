@@ -1,5 +1,18 @@
 # CHEER Project Shovels Permit Data
 
+***
+
+Prepared by: Hesam Soleimnai
+
+Updated by: Hesamm Soleimnai
+
+Status: Finalized
+
+Last Update: January 08, 2025
+
+
+***
+
 If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes time and resources. Thanks!
 
 ## Contents
@@ -8,6 +21,7 @@ If you plan to use this data, please ensure you fill out the [Data Usage Form](#
 - [Feature Statistics](#feature-statistics)
 - [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook)
 - [Data Usage Fom](#data-usage-form)
+- [Version Control](#version_c)
 
 ## Original Data
 **Dataset location:** DesignSafe  
@@ -67,5 +81,14 @@ Statistics are presented as an average for all states, but **critical states** (
   [Responses Link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670).  
 
 
+## Version Control
 
+The Table below keeps that track of pre-processed Shovel Permit Data versions.
+
+| Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
+|----------------|--------------------------------------------|-----------------------------------------------------|-----------|
+| **V0** | Nation-wide (US) Permit records, including various features explained in (#feature-statistics)  | Organizing the data State-wise, removing erroneous features, correct geo-locations, etc. | [Data](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes) |
+
+
+---
 Thank you for your cooperation!
