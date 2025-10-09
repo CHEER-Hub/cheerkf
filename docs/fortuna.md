@@ -4,6 +4,8 @@ Prepared by Hesam Soleimani (soleimanisam92@g.ucla.edu)
 
 Updated by: Hesam Soleimani
 
+Satatus: Functioning with ungoing updates planned
+
 Last Update: October 1, 2025
 
 
@@ -13,6 +15,7 @@ Last Update: October 1, 2025
 - [Imputation](#imputation)
 - [Feature Enhancement](#feature_enhance)
 - [Data: Inventories](#data)
+- [Version Control](#version-c)
 
 # Overview of STARR
 
@@ -25,5 +28,11 @@ The FORTUNA framework is structured as illustrated in the following image.
   <figcaption> Figure 1. FORTUNA Overview.</figcaption>
 </figure>
 
+# Version Control
 
+The table below tracks the FORTUNA versions.
+
+| Version        | Main Feature(s)                           | Key Purpose                                         | Resources |
+|----------------|--------------------------------------------|-----------------------------------------------------|-----------|
+| **FORTUNA V0** | Performs Data Fusion, only | Performs Data Fusion Across [FEMA](https://fema.maps.arcgis.com/home/item.html?id=0ec8512ad21e4bb987d7e848d14e7e24&sublayer=0), [NSI](https://www.hec.usace.army.mil/confluence/nsi/), and [Microsoft US Building](https://www.microsoft/USBuildingFootprints: Computer generated building footprints for the United States) adatbases | [Python code](https://github.com/CHEER-Hub/Fortuna) · [Documentation](https://hesam-92-19.github.io/Some_Documentations) |
 ---
