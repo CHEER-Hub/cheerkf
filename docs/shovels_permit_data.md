@@ -1,6 +1,6 @@
 # CHEER Project Shovels Permit Data
 
-***
+---
 
 Prepared by: Hesam Soleimani (soleimanisam92@g.ucla.edu)
 
@@ -11,7 +11,7 @@ Status: Finalized
 Last Update: January 08, 2025
 
 
-***
+---
 
 If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes the use of time and resources. Thanks!
 
@@ -23,11 +23,15 @@ If you plan to use this data, please ensure you fill out the [Data Usage Form](#
 - [Data Usage Form](#data-usage-form)
 - [Version Control](#version_c)
 
+---
+
 ## Original Data
 **Dataset location:** DesignSafe  
 - **Shovel Permit Data (Original):** [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FShovels_Permit_Data) These are the 'original' raw data, please **do not edit**, change, or delete these files.
 - There are over 200 files with many attribute columns and ultimately tens of millions of data rows. Please use the processed data for analysis, see [Access Method (Jupyter Notebook)](#access-method-jupyter-notebook).
 - If you can not access any of the links that take you to DesignSafe Data Depot, check to make sure you have an account on DesignSafe and that you have been added to the project.
+
+---
 
 ## Raw Data Processing
 This section covers two main aspects:  
@@ -45,6 +49,8 @@ The original dataset contains the following issues:
 
 ### **Raw Re-structuring Data**
 The dataset initially lacked a specific order (e.g., by state). Since the `"STATE"` column has no missing values, the cleaned dataset has been **grouped by state** for better accessibility.
+
+---
 
 ## Feature Statistics
 To enhance data usability, we categorized features into seven distinct groups and extracted various statistics to help users understand the dataset. For a more detailed explanation, refer to the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
@@ -64,15 +70,20 @@ The dataset contains over **90 attributes**, categorized as follows:
 The missing value statistics for all features can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).  
 Statistics are presented as an average for all states, but **critical states** (i.e., those with more than **90% missing values** for certain features) are also highlighted.
 
+---
+
 ## Access Method (Jupyter Notebook)
 - A **Jupyter Notebook** executable on **DesignSafe** is available at:  
   [Link](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FCodes).  
 - A walkthrough on executing this code within the **DesignSafe** environment can be found in the [**Descriptive PowerPoint file**](https://docs.google.com/presentation/d/15Am9-SoHL43LGmqlmvyKEnZoY-mqy97k/edit#slide=id.p1).
 
+
 ## Access Method (Direct)
 - The processed data are available as parquet files by the state in DesignSafe, with and without the suffix "-C".  The suffix indicates whether the **Unusable** attributes are omitted or not. See [link.](https://www.designsafe-ci.org/data/browser/projects/PRJ-4392/workdir/%2FBuildings%2FPermit_Data_Cleaned%2FStates)
 - The data format for stored files is .parquet, explicitly chosen for various reasons, such as reduced memory usage and ease of searching by the user's chosen region. However, the Jupyter notebook returns both .csv and .parquet files for convenience. Still, .parquet files are recommended for analyzing this type of data. You can find useful resources on Parquet files in general at [link](https://parquet.apache.org/).
 - If you're interested in working with Parquet files in Python, Pandas and GeoPandas can be used to process .parquet files just like other formats, following the same syntax.
+
+---
 
 ## Data Usage Form
 - To keep track of research activities related to this data, please **fill out the Google Form**:  
@@ -80,6 +91,7 @@ Statistics are presented as an average for all states, but **critical states** (
 - Recorded responses are saved in the following Google Sheet:  
   [Responses Link](https://docs.google.com/spreadsheets/d/11RlY_4f1IOXg-s1axi441tGfrTRSRQyT2H7fgiO_CKo/edit?resourcekey#gid=650003670).  
 
+---
 
 ## Version Control
 
