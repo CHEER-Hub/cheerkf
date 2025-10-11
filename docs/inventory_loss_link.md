@@ -13,11 +13,9 @@ This document summarizes the **Inventory–Loss Link** module, which executes th
 
 ---
 
-The following table tracks the version history of this module, outlines its functionality and objectives, and provides references to detailed documentation and related CHEER resources.
-
----
-
 ## Version Control
+
+The following table tracks the version history of this module, outlines its functionality and objectives, and provides references to detailed documentation and related CHEER resources.
 
 | Version | Main Feature(s) | Key Purpose | Upgrades | Resources |
 |----------|-----------------|--------------|-----------|------------|
