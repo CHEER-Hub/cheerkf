@@ -11,6 +11,8 @@
 
 This document summarizes the **Inventory–Loss Link** module, which executes the **CHEER-Safe** loss model using a **building-by-building** schema derived from the developed inventory system.  
 
+---
+
 The following table tracks the version history of this module, outlines its functionality and objectives, and provides references to detailed documentation and related CHEER resources.
 
 ---
