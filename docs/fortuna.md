@@ -10,8 +10,6 @@
 ## Contents
 - [Overview](#overview)
 - [Data Fusion](#data-fusion)
-- [Imputation](#imputation)
-- [Feature Enhancement](#feature-enhancement)
 - [Version Control](#version-control)
 
 ---
