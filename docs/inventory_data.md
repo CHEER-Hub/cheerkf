@@ -26,7 +26,7 @@ The **Inventory data structure** can be summarized as follows:
 
 ### 1. Fusion Data
 
-This dataset is the direct output of the **Inventory Generation** module, [FORTUNA](https://github.com/CHEER-Hub/Fortuna).  
+This dataset is the direct output of the **Inventory Generation** module, [FORTUNA](https://github.com/CHEER-Hub/Fortuna).<br><br>
 It integrates features and attributes from multiple data sources, including:
 
 - **NSI** ([Dictionary](https://docs.google.com/spreadsheets/d/1Z0g9yA_5fAORfJGk5esTt3T2dLyZsIgU/edit?gid=1943153730#gid=1943153730))  
@@ -37,7 +37,7 @@ It integrates features and attributes from multiple data sources, including:
 
 ### 2. CHEER-Inventory Data
 
-This dataset represents a **purposeful selection** of the Fusion Data, including features relevant to CHEER’s research focus.  
+This dataset represents a **purposeful selection** of the Fusion Data, including features relevant to CHEER’s research focus. <br><br>
 Additional attributes have been added to support the [CHEER-Safe Model](https://github.com/CHEER-Hub/LossModel).  
 A comprehensive [Inventory Data Dictionary](https://docs.google.com/spreadsheets/d/1r9AM08eoTDRibuY9zpnoblz-OcNvFjjgzd8PikwpRYg/edit) explains all included features.
 
@@ -50,5 +50,6 @@ A comprehensive [Inventory Data Dictionary](https://docs.google.com/spreadsheets
 | **Inventory Data (V0)** | Inventory coverage for NC and TX (FIPS: 48201 and 48181) study regions | Supports [CHEER-Safe](https://github.com/CHEER-Hub/LossModel) with required building-level features | – | 1. [Data Fusion directory](https://drive.google.com/drive/folders/1-56QruV-7C5Es4YyoCTIhtcg1VA4aug2): ordered by FIPS codes.<br><br>2. [CHEER-Inventory directory](https://drive.google.com/drive/folders/1-2mgVZZDV-0LBTeJw6-P2e-ORm25rUyD): selected features with additional AI-driven attributes supporting the loss model (state-level data). |
 
 ---
+
 
 
