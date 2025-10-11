@@ -1,6 +1,5 @@
 # CHEER Project Shovels Permit Data
 
----
 
 **Prepared by:** [Hesam Soleimani](mailto:soleimanisam92@g.ucla.edu)  
 **Updated by:** Hesam Soleimani  
