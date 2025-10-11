@@ -1,5 +1,12 @@
 # Inventory_Loss Link
 
+Prepared by: **Hesam Soleimani** ([soleimanisam92@g.ucla.edu](mailto:soleimanisam92@g.ucla.edu))  
+Updated by: **Hesam Soleimani**  
+Status: **Functioning**, with ongoing updates planned  
+Last Update: **October 12, 2025**
+
+---
+
 This page summarizes all available resources to understand the **Inventory–Loss Link** module—how it works and how to access its outputs.
 
 ## Contents
