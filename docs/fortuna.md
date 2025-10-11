@@ -9,7 +9,6 @@
 
 ## Contents
 - [Overview](#overview)
-- [Data Fusion](#data-fusion)
 - [Version Control](#version-control)
 
 ---
