@@ -3,12 +3,8 @@
 **Prepared by:** [Hesam Soleimani](mailto:soleimanisam92@g.ucla.edu)  
 **Updated by:** Hesam Soleimani  
 **Status:** *Finalized*  
-**Last Update:** October 12, 2025  
-
-**Prepared by:** [Hesam Soleimani](mailto:soleimanisam92@g.ucla.edu)  
-**Updated by:** Hesam Soleimani  
-**Status:** *Finalized*
 **Last Update:** January 08, 2025  
+
 ---
 
 If you plan to use this data, please ensure you fill out the [Data Usage Form](#data-usage-form) at the end of this document. There are only a few questions. This helps the entire team stay aligned with ongoing research and optimizes the use of time and resources. Thanks!
