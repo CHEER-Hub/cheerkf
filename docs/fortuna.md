@@ -1,7 +1,7 @@
 # Building Inventory Generator: FORTUNA
 
-**Prepared by:** [Hesam Soleimani](mailto:soleimanisam92@g.ucla.edu)  
-**Updated by:** Hesam Soleimani  
+**Prepared by:** [Hesam Soleimani (emeritus)](mailto:soleimanisam92@g.ucla.edu)  
+**Updated by:** Hesam Soleimani (emeritus) 
 **Status:** *Functioning*, with ongoing updates planned  
 **Last Update:** October 1, 2025  
 
