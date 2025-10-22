@@ -1,6 +1,6 @@
 # Developed Deep Models to Support Inventory Generation
 
-Prepared by: **Hesam Soleimani** ([soleimanisam92@g.ucla.edu](mailto:soleimanisam92@g.ucla.edu))  
+Prepared by: **Hesam Soleimani** *(emeritus)* ([soleimanisam92@g.ucla.edu](mailto:soleimanisam92@g.ucla.edu))  
 Updated by: **Hesam Soleimani**  
 Status: **Functioning**, with ongoing updates planned  
 Last Update: **October 10, 2025**
