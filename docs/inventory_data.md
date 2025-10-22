@@ -47,9 +47,10 @@ A comprehensive [Inventory Data Dictionary](https://docs.google.com/spreadsheets
 
 | Version | Main Feature(s) | Key Purpose | Upgrades | Resources |
 |----------|------------------|--------------|-----------|------------|
-| **Inventory Data (V0)** | Inventory coverage for NC and TX (FIPS: 48201 and 48181) study regions | Supports [CHEER-Safe V0](https://github.com/CHEER-Hub/LossModel) and [STARR Framework V0]([https://github.com/CHEER-Hub/LossModel](https://github.com/CHEER-Hub/STARR_DBI)) with required building-level features | – | 1. [Data Fusion directory](https://drive.google.com/drive/folders/1-56QruV-7C5Es4YyoCTIhtcg1VA4aug2): ordered by FIPS codes.<br><br>2. [CHEER-Inventory directory](https://drive.google.com/drive/folders/1-2mgVZZDV-0LBTeJw6-P2e-ORm25rUyD): selected features with additional AI-driven attributes supporting the loss model (state-level data). |
+| **Inventory Data (V0)** | Inventory coverage for NC and TX study regions (FIPS: 48201 and 48181) | Supports [CHEER-Safe V0](https://github.com/CHEER-Hub/LossModel) and [STARR Framework V0]([https://github.com/CHEER-Hub/LossModel](https://github.com/CHEER-Hub/STARR_DBI)) with required building-level features | – | 1. [Data Fusion directory](https://drive.google.com/drive/folders/1-56QruV-7C5Es4YyoCTIhtcg1VA4aug2): ordered by FIPS codes.<br><br>2. [CHEER-Inventory directory](https://drive.google.com/drive/folders/1-2mgVZZDV-0LBTeJw6-P2e-ORm25rUyD): selected features with additional AI-driven attributes supporting the loss model (state-level data). |
 
 ---
+
 
 
 
