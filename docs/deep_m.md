@@ -43,6 +43,6 @@ This module classifies **Building Type** from street-view images to categorize t
 
 | Version | Main Feature(s) | Key Purpose | Upgrades | Resources |
 |----------|------------------|--------------|-----------|------------|
-| **Building Type Classifier (V0)** | Building Type | Identifies building utilities across 4 classes:<br>0: Single-Familty<br>1: Multi-Family<br>2: Mobile-Manufactored Homes<br>3: Non-Residential| – | [Roof Classification Details](https://docs.google.com/presentation/d/1_4VMdOTwEs-NgynvBFSNkRI2JrJDA1Th/edit)<br><br>[Trained Model](https://drive.google.com/file/d/19uEGtwpdshSYNZm3mI-ggPVDWMTsevNa/view?usp=sharing)<br><br>[Notebook to Run the Model](https://colab.research.google.com/drive/15gdlvNB7lg13_20TMDEbO6JTAvHI4JOl) |
+| **Building Type Classifier (V0)** | Building Type | Identifies building utilities across 4 classes:<br>0: Single-Familty<br>1: Multi-Family<br>2: Mobile-Manufactored Homes<br>3: Non-Residential| – | [Building Type Classification Details](https://docs.google.com/presentation/d/1_4VMdOTwEs-NgynvBFSNkRI2JrJDA1Th/edit)<br><br>[Trained Model](https://drive.google.com/file/d/19uEGtwpdshSYNZm3mI-ggPVDWMTsevNa/view?usp=sharing)<br><br>[Notebook to Run the Model](https://colab.research.google.com/drive/15gdlvNB7lg13_20TMDEbO6JTAvHI4JOl) |
 
 
