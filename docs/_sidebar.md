@@ -10,6 +10,7 @@
     * [Inventory_Data](inventory_data.md)
     * [Developed Deep Models](deep_m.md)
     * [Inventory_Loss Link](inventory_loss_link.md)
+    * [NSI Joint Inventory Processing](nsi_inventory_processing.md)
   * [Hazards Thrust](hazardsthrust.md)
   * [Integration Thrust](integrationthrust.md)
 * [CHEER Using DesignSafe](05-CHEER_Using_DesignSafe.md)
